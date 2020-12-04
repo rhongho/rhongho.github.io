@@ -16,7 +16,8 @@
 	<body>
 		<header class="site-header">
 			<div class="wrapper">
-				<a class="site-title" href="/">Home</a>
+				<img style="float: left; margin-top:12px" src="../assets/img/wsu.png"/>
+				<a style="margin-left: 10px; color:white" class="site-title" href="/">Home</a>
 				<nav class="site-nav">
 					<a href="#" class="menu-icon">
 					<svg viewBox="0 0 18 15">
@@ -25,25 +26,58 @@
 						<path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
 					</svg>
 					</a>
+
 				</nav>
 			</div>
 		</header>
 		<main class="page-content" aria-label="Content">
 			<div class="wrapper">
-				<!--         <div class="home">
-				</div> -->
-				<img style= "float: left; width:2.1in; padding: 8px;" src="./assets/img/jy.jpg" alt="drawing"/>
+				<div class="home">
 				
-				<h1 class="page-heading">Biography</h1>
-				<h2><b>Rhongho Jang</b></h2>
-				<h4>Ph.D., CS, University of Central Florida , Summer 2020</h4>
-				<h4>Ph.D., CSE, Inha University, Fall 2019</h4>
-				<p>I would like to express my sincere gratitude to my advisor <a href="https://www.cs.ucf.edu/~mohaisen/">Prof. David Mohaisen</a>. I would like to also thank my advisor at Inha, <a href="http://seclab.ewha.ac.kr/">Prof. DaeHun Nyang</a> (Now, Ewha Womans University), for his endless support. Dr. Nyang and Dr. Mohaisen saw the potential in me early on and shaped me for success in researching and publishing scholarly work.</p>
+				<h1 class="page-heading">Biography</h1><br>
+				<img style= "width:2.0in" src="./assets/img/jy.jpg" alt="jy"/>
+				
+				<br><br>
+				<h4><b>Rhongho Jang</b></42>
+				<p>Assistant Professor</p>
+				<a href="https://wayne.edu/">Wayne State University</a><br>
+				<a href="https://engineering.wayne.edu/">College of Engineering</a><br>
+				<a href="https://engineering.wayne.edu/cs/">Department of Computer Science</a><br>
+				Detroit, MI 48202<br>
+				<b>Office</b>: 14101.30 5057 Woodward Ave<br>
+				<b>Email</b>: r.jang@wayne.edu<br><br>
 
-				<p>Now, I am an Assistant Professor in the Department of Computer Science at Wayne State University and looking for energetic and motivated Ph.D. students to join my group. If interested, send me your CV and transcripts, and apply. <a href="https://engineering.wayne.edu/profile/hf8512">[Link]</a></p>
+				<h1 class="page-heading">Professional Bio</h1>
+				<p>I'm a tenure-track assistant professor in the department of computer science at Wayne State University. I joined Wayne State University in Fall 2020. Before joining Wayne, I was a Ph.D student in the department of computer science at the University of Central Florida. To date, I published as a lead author several peer-reviewed research papers, including papers in top-tier conferences and premier journals, such as IEEE ICDCS, IEEE INFOCOM, and IEEE TMC, etc. I won the Best-in-session Presentation Award (SDN II) at IEEE INFOCOM (2017), the Outstanding Young Researcher Award from KISA (2018).</p>
 
+				<p>I'm looking for energetic and motivated Ph.D. students to join my group. If interested, send me your CV and transcripts, and apply.</p>
+
+				<br>
+				<h1 class="page-heading">Recent Research Areas and Interests</h1>
+				<ul>
+					<li><b>Network Traffic Measurement</b>: I'm interested in designing a cost-efficient data structure and algorithm (<i>i.e.</i>, sketch) to realize the fast and accurate traffic measurement in a high-speed and resource-constraint network environmentm [INFOCOM'17][WiSec'17][ICDCS'19]. </li>
+    
+    				<li><b>Wireless Security</b>: I'm interested in studying the wireless secuirty inlcuding rogue access point detection [ICDCS'19], SDN-based WLAN intrusion detection system [INFOCOM'17], and channel interference [TMC'20].
+    
+    				<li><b>Sampling Algorithm</b>: In this project, we introduce a new concept of per-flow systematic sampling, aiming to provide the same sampling rate across all flows. In addition, we provide a concrete sampling method called SketchFlow, which approximates the idea of the per-flow systematic sampling using a sketch saturation event. We demonstrate SketchFlow’s performance in terms of accuracy, sampling rate, and overhead using real-world datasets. Experimental results show that SketchFlow outperforms SRS (i.e., sFlow) and the non-linear sampling method while requiring a small CPU overhead to measure high-speed traffic in real-time [INFOCOM'20].</li>
+    
+					<li><b>Privacy</b>: In this work, we conduct in-depth analyses of two state-of-the-art WF defense approaches of The Onion Router (Tor). Then, based on our new insights, we propose a novel defense mechanism using a per-burst injection technique, called Deep Fingerprinting Defender (DFD), which is designed to break the inherent patterns preserved in Tor user's traces by carefully injecting dummy packets within every burst [INFOCOM'20].
+				</ul>
+
+				<br>
+				<h1 class="page-heading">Experience and Education</h1>
+				
+				2020-, Assistant Professor at Wayne State University, CS<br>
+				2020, Ph.D., CS, University of Central Florida, USA, Advisor: <a href="https://www.cs.ucf.edu/~mohaisen/">Prof. David Mohaisen</a><br>
+				2020, Ph.D., CS, INHA University, South Korea, Advisor: <a href="http://seclab.ewha.ac.kr/">Prof. DaeHun Nyang</a> (Now, Ewha Womans University)<br>
+				2019, Visiting Research Assistant, <b>USC ISI</b>
+				
+
+				<!-- <p>Now, I am an Assistant Professor in the Department of Computer Science at Wayne State University and looking for energetic and motivated Ph.D. students to join my group. If interested, send me your CV and transcripts, and apply. <a href="https://engineering.wayne.edu/profile/hf8512">[Link]</a></p> -->
+
+				<br><br>
 				<h1 class="page-heading">Publications</h1>
-				<ol>
+				<ul>
 					<li><b>Rhongho Jang</b>, "Towards Scalable Network Traffic Measurement With Sketches", Dissertation, UCF, Summer 2020. <a href="./Dissertation_RJ.pdf">[PDF]</a> </li>
 					<li><b>Rhongho Jang</b>, Daehong Min, Seongkwang Moon, David Mohaisen, and DaeHun Nyang, “SketchFlow: Per-Flow Systematic Sampling Using Sketch Saturation Event”, in <i>Proceedings of the 39th IEEE International Conference on Computer Communications</i>, <b>IEEE INFOCOM 2020</b>.</li>
 					<li>Ahmed Abusnaina†, <b>Rhongho Jang</b>†, Aminollah Khormali, DeaHun Nyang, and David Mohaisen, “Deep Fingerprinting Defender: Adversarial Learning-based Approach to Defend Against Website Fingerprinting”, in <i>Proceedings of the 39th IEEE International Conference on Computer Communications</i>, <b>IEEE INFOCOM 2020</b>.</li>
@@ -52,9 +86,9 @@
 					<li><b>Rhongho Jang</b>, Seongkwang Moon, Youngtae Noh, Aziz Mohaisen, and DaeHun Nyang, “InstaMeasure: Instant Per-flow Detection Using Large In-DRAM Working Set of Active Flows”, in <i>Proceedings of 39th IEEE International Conference on Distributed Computing Systems</i>, <b>ICDCS 2019</b>.</li>
 					<li><b>Rhongho Jang</b>, Jeonil Kang, Aziz Mohaisen, and DaeHun Nyang, “Rogue Access Point Detector Using Characteristics of Channel Overlapping in 802.11n”, in <i>Proceedings of 37th IEEE International Conference on Distributed Computing Systems</i>, <b>ICDCS 2017</b>.</li>
 					<li><b>Rhongho Jang</b>, DongGyu Cho, Youngtae Noh, and DaeHun Nyang, “RFlow+: An SDN-based WLAN Monitoring and Management Framework”, in <i>Proceedings of the 36th IEEE International Conf. on Computer Communications</i>, <b>INFOCOM 2017</b>.</li>
-				</ol>
+				</ul>
 			</div>
-
+			</div>
 		</main>
 		<footer class="site-footer">
 			<div class="wrapper">
@@ -62,12 +96,12 @@
 				<div class="footer-col-wrapper">
 					<div class="footer-col footer-col-1">
 						<ul class="contact-list">
-						  <li><i class="fa fa-envelope-o" style="font-size:20px;color:black"></i>&nbsp&nbsp r dot jang _at_ wayne.edu</li>
+						  <li><i class="fa fa-envelope-o" style="font-size:20px;color:black"></i>&nbsp&nbsp r.jang@wayne.edu</li>
 						</ul>
 					</div>
 
 					<div class="footer-col footer-col-3">
-						<p><a href="https://engineering.wayne.edu/profile/hf8512"><span class="username">Wayne State University</span></a></p>
+						<p><a href="https://engineering.wayne.edu/profile/hf8512"><span class="username">RJ - Wayne State University</span></a></p>
 					</div>
 				</div>
 			</div>
