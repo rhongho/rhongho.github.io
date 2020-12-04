@@ -54,7 +54,6 @@ p {
  * Lists
  */
 ul, ol {
-
   margin-left: 10px;
   text-align: justify;
 }
@@ -118,19 +117,27 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(950px - (30px * 2));
+  max-width: calc(950px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 950px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
+      max-width: -webkit-calc(950px - (30px));
+      max-width: calc(950px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
+#logo {
+    position: absolute;
+    height: 30px;
+    width: 36px;
+    top: 12px;
+    left:7px;
+    background: url(../assets/img/wsu.png);
+}
 /**
  * Clearfix
  */
@@ -156,8 +163,9 @@ pre {
 .site-header {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
+  background-color: #0a5449;
   min-height: 56px;
-  position: relative; }
+  position: relative;}
 
 .site-title {
   font-size: 26px;
@@ -165,7 +173,7 @@ pre {
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left; }
+  float: left;}
   .site-title, .site-title:visited {
     color: #424242; }
 
@@ -273,6 +281,7 @@ pre {
   padding: 10px 0; }
 
 .page-heading {
+  color: #023337;
   font-size: 20px; }
 
 .post-list {
