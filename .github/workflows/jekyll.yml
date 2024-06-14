@@ -50,6 +50,10 @@ jobs:
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
+      - name: Bundler CLI
+        # You may pin to the exact commit or the version.
+        # uses: CultureHQ/actions-bundler@285f68b1d2059b91ca1eb26683263cf1960e7161
+        uses: CultureHQ/actions-bundler@v1.0.0
 
   # Deployment job
   deploy:
