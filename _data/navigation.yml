@@ -1,0 +1,24 @@
+# main links links
+main:
+  - title: "NIDS-Lab"
+    url: /team/
+
+  - title: "Publications"
+    url: /publications/
+
+ # - title: "Talks"
+ #   url: /talks/    
+
+  - title: "Teaching"
+    url: /teaching/    
+    
+  #- title: "Research"
+  #  url: /research/
+        
+  #- title: "Blog Posts"
+   # url: /year-archive/
+    
+  #- title: "CV"
+    #url: /cv/
+    
+ 
