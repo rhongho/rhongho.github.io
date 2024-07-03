@@ -12,7 +12,7 @@ He is director of [NIDS Lab](/team/).
 
 <b>Research:</b> Security & Privacy of Distribtued System, Cyber-phsical System, Internet, and AI.
 <br>
-<b>Recent Papers:</b>  [SEC 2024] [NDSS 2023] [CCS 2022] [DSN 2022] [RAID 2022] [NIPS 2022]
+<b>Recent Papers:</b>  [Security 2024] [NDSS 2023] [CCS 2022] [DSN 2022] [RAID 2022] [NIPS 2022]
 
 
 Awards and Honors
