@@ -14,12 +14,12 @@ Networked intelligence and Distributed Security (NiDS) Lab's vision is to advanc
 
 ## Research Area & Recent Outcome
 
-  * Cyber-phsical System Security [Coming Soon!]
+  * Cyber-phsical System Security: Coming Soon!
   * Distributed System & Security: [USENIX SECURITY 2024]
   * In-Network Security: [ISCO NDSS 2025] [ISOC NDSS 2023] [ACM CCS 2022]
-  * Probablitic (Sketch) Algorithm: [IEEE DSN 2022] [IEEE INFOCOM 2020a]
-  * Malware Analysis: [WISE 2024] [IEEE RAID 2022] [IEEE TDSC 2022] [IEEE ICDCS 2020]
-  * AI & ML Applicaitons: [NIPS 2022] [IEEE INFOCOM 2020b]
+  * Probablitic (Sketch) Algorithm: [DSN 2022] [INFOCOM 2020a]
+  * Malware Analysis: [WISE 2024] [RAID 2022] [TDSC 2022] [ICDCS 2020]
+  * AI & ML Applicaitons: [NIPS 2022] [INFOCOM 2020b]
 
 ## Current Members
 * Seyed Mohammad Mehdi Mirnajafizadeh, Ph.D. Student, 2022
