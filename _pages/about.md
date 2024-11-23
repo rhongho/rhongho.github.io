@@ -25,13 +25,8 @@ Awards and Honors
 
 Public Services
 ---
-* Journal Reviewer: TDSC, TIFS, ToN, TMC, TPDS, TCC, TNSM, TNSE, IoT Journal, etc.
-* TPC member: 
-  * MASS 2024
-  * ICDCS 2022-2023
-  * MSN 2021-2022 
-  * CSoNet 2021-2023
-  * AdvML Frontiers 2022 (@ICML), 2024 (@NIPS)
+* Journal Reviewer: TDSC, TIFS, ToN, TMC, TPDS, TCC, TNSM, TNSE, IoT Journal, COSE, etc.
+* TPC member: MASS 2024, ICDCS 2022-2023, MSN 2021-2022, CSoNet 2021-2023, AdvML Frontiers 2022 (@ICML), 2024 (@NIPS)
 * Virtual Conference Chair: ACM CCS 2021
 * Student Travel Chair: IEEE CNS 2023
 * Demo Session Chair: EAI SmartSP 2023
