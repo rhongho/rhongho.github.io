@@ -31,12 +31,12 @@ Recent News
 * [Apr 2023] Our hospital website security paper is accepted in IEEE ICCCN 2023.  
 * [Sep 2022] Our transformer explainability paper is accepted in NeurIPS 2022.
 * [Aug 2022] Received a $600,000 NSF grant (Co-PI, IIS#2211897) to develop a trustworthy AI app for social good.
-* [Jun 2022] Our malware detection system analysis paper has been accepted for RAID 2022.
-* [May 2022] Our free content website measurement paper will be presented in ACM CySSS@AsiaCCS 2022. 
-* [Mar 2022] Our algorithm paper titled "Minimizing Noise in HyperLogLog-Based Spread Estimation of Multiple Flows" has been accepted in IEEE DSN 2022.
+* [Jun 2022] Our malware detection system analysis paper is accepted in RAID 2022.
+* [May 2022] Our free content website analysis paper will be presented at ACM CySSS@AsiaCCS 2022. 
+* [Mar 2022] Our algorithm paper titled "Minimizing Noise in HyperLogLog-Based Spread Estimation of Multiple Flows" is accepted in IEEE DSN 2022.
 * [Jul 2022] Our in-network ACL paper titled "A Scalable and Dynamic ACL System for In-Network Defense" will appear at the top security conference, **ACM CCS 2022**.
 * [Jul 2021] Our robust malware detection paper about robust malware detection has been accepted in IEEE Transactions on Dependable and Secure Computing (TDSC).
-* [Aug 2021] Our network measurement paper titled "A Large-Scale Behavioral Analysis of the Open DNS Resolvers on the Internet" has been accepted in IEEE/ACM Transactions on Networking (ToN).
+* [Aug 2021] Our network measurement paper titled "A Large-Scale Behavioral Analysis of the Open DNS Resolvers on the Internet" is accepted in IEEE/ACM Transactions on Networking (ToN).
 * [Feb 2021] Our wearable computing paper is accepted in IEEE Transactions on Mobile Computing (TMC).
 * [Jan 2020] Received the **Best Fast Abstract Award** for robustness analysis of ML-based IoT malware detectors in IEEE DSN 2021.
 * [Jul 2020] Two papers accepted in IEEE INFOCOM 2020: 1) network security and 2) web privacy.
