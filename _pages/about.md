@@ -16,8 +16,11 @@ He is the director of [NIDS Lab](/team/).
 <b>Student Papers:</b>  [NDSS 2025](https://www.ndss-symposium.org/ndss-paper/sketchfeature-high-quality-per-flow-feature-extractor-towards-security-aware-data-plane/) [Security 2024](https://www.usenix.org/conference/usenixsecurity24/presentation/mirnajafizadeh) [NDSS 2023](https://www.ndss-symposium.org/ndss-paper/a-robust-counting-sketch-for-data-plane-intrusion-detection/) [CCS 2022](https://dl.acm.org/doi/10.1145/3548606.3560606)
 
 
+
+
 Recent News
 ---
+<small>
 * [Sep 2025] Our journal paper about malware concept drift will appear in Computing. 
 * [Apr 2025] My Ph.D. student (Seyed Mohammad Mehdi Mirnajafizadeh) received the Michael Conrad Award ($1,000) for his first-authored paper in USENIX Security 2024. 
 * [Feb 2025] Our in-network defense paper titled "SketchFeature: High-Quality Per-Flow Feature Extractor Towards Security-Aware Data Plane" will be presented in the top security conference, ISOC NDSS 2025.
@@ -27,7 +30,7 @@ Recent News
 * [Feb 2023] Our in-network traffic measurement paper titled "A Robust Counting Sketch for Data Plane Intrusion Detection" will be presented in the top security conference, ISOC NDSS 2023.
 * [Apr 2023] Our hospital website security paper is accepted in IEEE ICCCN 2023.  
 * [Sep 2022] Our transformer explainability paper is accepted in NeurIPS 2022.
-* [Aug 2023] Received a $600,000 NSF grant (as a Co-PI, IIS#2211897) to develop a trustworthy AI app for social good.
+* [Aug 2022] Received a $600,000 NSF grant (as a Co-PI, IIS#2211897) to develop a trustworthy AI app for social good.
 * [Jun 2022] Our malware detection system analysis paper has been accepted for RAID 2022.
 * [May 2022] Our free content website measurement paper will be presented in the workshop ACM CySSS@AsiaCCS 2022. 
 * [Mar 2022] Our algorithm paper titled "Minimizing Noise in HyperLogLog-Based Spread Estimation of Multiple Flows" has been accepted in IEEE DSN 2022.
@@ -38,6 +41,6 @@ Recent News
 * [Jan 2020] Our paper titled "Systemically Evaluating the Robustness of ML-based IoT Malware Detectors" received the Best Fast Abstract Award in IEEE DSN 2021.
 * [Jul 2020] Two papers accepted in IEEE INFOCOM 2020: 1) network security and 2) web privacy.
 * [Mar 2020] Our malware adversarial learning paper is accepted in IEEE ICDCS 2020.
-
+</small>
 
 
