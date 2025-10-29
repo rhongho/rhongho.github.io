@@ -1,39 +1,56 @@
 ---
-permalink: /terms/
-title: "Terms and Privacy Policy"
+permalink: /service/
+title: "Service"
 modified: 2016-06-06
 ---
 
 {% include base_path %}
 {% include toc %}
 
-## Privacy Policy
+Professional Service
+---
 
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
+### Grant Proposal Review Committee
+- CAHSI — Google Institutional Research Program (2024–2025)
 
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+---
 
-### Log Files
+### Conference Organization / Technical Committee
+- Technical Program Chair — IEEE Conference on Dependable and Secure Computing (DSC), 2025  
+- Publication Chair — EAI Conference on Security and Privacy in CPS and Smart Vehicles (SmartSP), 2025  
+- Student Travel Chair — IEEE Conference on Communications and Network Security (CNS), 2023  
+- Demo Chair — EAI Conference on Security and Privacy in CPS and Smart Vehicles (SmartSP), 2023  
+- Virtual Conference Chair — ACM Conference on Computer and Communications Security (CCS), 2021  
+- Publicity Chair — IEEE Conference on Distributed Computing Systems (ICDCS), 2021  
+- Web Chair — ACM Conference on Emerging Networking Experiments and Technologies (CoNEXT), 2019  
+- TPC — ICDCS, NeurIPS, AdvML Frontier@ICML & NIPS, MSN, MASS, CSoNet, etc.
 
-Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
+---
 
-* Internet Protocol addresses (IP)
-* Types of browser
-* Internet Service Provider (ISP)
-* Date and time stamp
-* Referring and exit pages
-* Number of clicks
+### Journal Reviewer  
+**(99 peer review records of 77 manuscripts verified in Web of Science™, 2020–2025)**  
 
-All of this information is not linked to anything that is personally identifiable.
+*Areas:* network security, programmable data planes, AI-driven cyber defense, and privacy-preserving systems.
 
-### Cookies and Web Beacons
+- IEEE/ACM Transactions on Networking (ToN)  
+- IEEE Transactions on Information Forensics and Security (TIFS)  
+- IEEE Transactions on Dependable and Secure Computing (TDSC)  
+- IEEE Transactions on Network Science and Engineering (TNSE)  
+- IEEE Transactions on Network and Service Management (TNSM)  
+- IEEE Transactions on Computers (TC)  
+- IEEE Transactions on Mobile Computing (TMC)  
+- IEEE Internet of Things Journal (IoTJ)  
+- IEEE Sensors Journal  
+- IEEE Data Descriptions  
+- ACM Transactions on Privacy and Security (TOPS)  
+- ACM Transactions on Knowledge Discovery from Data (TKDD)  
+- ACM Transactions on Internet Technology (TOIT)  
+- Elsevier Computer Networks  
+- Elsevier Computer Communications  
 
-When you visit this site "convenience" cookies are stored on your computer when you submit a comment to help you log in faster to [Disqus](http://disqus.com) the next time you leave a comment.
+---
 
-Third-party advertisers may also place and read cookies on your browser and/or use web beacons to collect information. This site has no access or control over these cookies. You should review the respective privacy policies on any and all third-party ad servers for more information regarding their practices and how to opt-out.
+### Community Service & K–12 Outreach
+- **Cybersecurity Education Advisory Committee** — South & West Washtenaw Consortium (SWWC), MI (2021–present)  
 
-If you wish to disable cookies, you may do so through your web browser options. Instructions for doing so can be found on the specific web browsers' websites.
-
-#### Google Analytics
-
-Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
+🔗 [**Media:** *Cybersecurity programs prepare Washtenaw County high schoolers for future careers (Oct. 23, 2025)*](https://concentratemedia.com/cybersecurity-programs-prepare-washtenaw-county-high-schoolers-for-future-careers/)
