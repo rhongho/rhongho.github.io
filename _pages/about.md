@@ -85,22 +85,3 @@ Professional Service
 | ACM | Transactions on Internet Technology (TOIT) |
 | Elsevier | Computer Networks |
 | Elsevier | Computer Communications |
-
----
-
-### Department Service
-| Committee / Role | Year |
-|------------------|------|
-| Graduate Program Committee (**CS** and **IT** departments) | 2020–present |
-| Faculty Search Committee (hired **2** tenure-track assistant professors) | 2021 & 2024 |
-| Director of Cybersecurity Certificate & Minor Degree Programs | 2025–present |
-
----
-
-### Community Service & K–12 Outreach
-| Committee | Organization | Year |
-|------------|---------------|------|
-| **Cybersecurity Education Advisory Committee** | South & West Washtenaw Consortium (SWWC), MI | 2021–present |
-
-🔗 [**Media:** *Cybersecurity programs prepare Washtenaw County high schoolers for future careers (Oct. 23, 2025)*](https://concentratemedia.com/cybersecurity-programs-prepare-washtenaw-county-high-schoolers-for-future-careers/)
-
