@@ -1,5 +1,5 @@
 ---
-permalink: /service/
+permalink: /terms/
 title: "Service"
 modified: 2016-06-06
 ---
