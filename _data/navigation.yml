@@ -1,7 +1,6 @@
 # main links links
 main:
-  - title: "NIDS-Lab"
-    url: /team/
+
 
   - title: "Service"
     url: /terms/  
@@ -10,7 +9,10 @@ main:
     url: /publications/
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/   
+  
+  - title: "NIDS-Lab"
+    url: /team/
     
   #- title: "Research"
   #  url: /research/
