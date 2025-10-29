@@ -38,7 +38,7 @@ Recent News
 * [Jul 2021] Our robust malware detection paper about robust malware detection has been accepted in IEEE Transactions on Dependable and Secure Computing (TDSC).
 * [Aug 2021] Our network measurement paper titled "A Large-Scale Behavioral Analysis of the Open DNS Resolvers on the Internet" is accepted in IEEE/ACM Transactions on Networking (ToN).
 * [Feb 2021] Our wearable computing paper is accepted in IEEE Transactions on Mobile Computing (TMC).
-* [Jan 2020] Received the **Best Fast Abstract Award** for robustness analysis of ML-based IoT malware detectors in IEEE DSN 2021.
+* [Jan 2020] Received **Best Fast Abstract Award** for robustness analysis of ML-based IoT malware detectors in IEEE DSN 2021.
 * [Jul 2020] Two papers accepted in IEEE INFOCOM 2020: 1) network security and 2) web privacy.
 * [Mar 2020] Our malware adversarial learning paper is accepted in IEEE ICDCS 2020.
 
