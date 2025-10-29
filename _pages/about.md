@@ -26,7 +26,7 @@ Recent News
 * [Feb 2023] Our in-network traffic measurement paper titled "A Robust Counting Sketch for Data Plane Intrusion Detection" will be presented in the top security conference, ISOC NDSS 2023.
 * [Apr 2023] Our hospital website security paper is accepted in IEEE ICCCN 2023.  
 * [Sep 2022] Our transformer explainability paper is accepted in NeurIPS 2022.
-* [Aug 2023] Received a $600K NSF grant (as a Co-PI, IIS#2211897) to develop a trustworthy AI app for social good.
+* [Aug 2023] Received a $600,000 NSF grant (as a Co-PI, IIS#2211897) to develop a trustworthy AI app for social good.
 * [Jun 2022] Our malware detection system analysis paper has been accepted for RAID 2022.
 * [May 2022] Our free content website measurement paper will be presented in the workshop ACM CySSS@AsiaCCS 2022. 
 * [Mar 2022] Our algorithm paper titled "Minimizing Noise in HyperLogLog-Based Spread Estimation of Multiple Flows" has been accepted in IEEE DSN 2022.
