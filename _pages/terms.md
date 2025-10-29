@@ -4,14 +4,14 @@ title: "Service"
 permalink: /terms/
 author_profile: true
 ---
+{% include base_path %}
 
-Professional Service
----
+
 
 ### Grant Proposal Review Committee
 - CAHSI — Google Institutional Research Program (2024–2025)
 
----
+
 
 ### Conference Organization / Technical Committee
 - Technical Program Chair — IEEE Conference on Dependable and Secure Computing (DSC), 2025  
@@ -23,7 +23,7 @@ Professional Service
 - Web Chair — ACM Conference on Emerging Networking Experiments and Technologies (CoNEXT), 2019  
 - TPC — ICDCS, NeurIPS, AdvML Frontier@ICML & NIPS, MSN, MASS, CSoNet, etc.
 
----
+
 
 ### Journal Reviewer  
 **(99 peer review records of 77 manuscripts verified in Web of Science™, 2020–2025)**  
@@ -46,7 +46,7 @@ Professional Service
 - Elsevier Computer Networks  
 - Elsevier Computer Communications  
 
----
+
 
 ### Community Service & K–12 Outreach
 - **Cybersecurity Education Advisory Committee** — South & West Washtenaw Consortium (SWWC), MI (2021–present)  
