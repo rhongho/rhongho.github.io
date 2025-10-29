@@ -4,9 +4,6 @@ title: "Service"
 permalink: /terms/
 author_profile: true
 ---
-{% include base_path %}
-
-
 
 ### Grant Proposal Review Committee
 - CAHSI — Google Institutional Research Program (2024–2025)
