@@ -22,7 +22,7 @@ Recent News
 ---
 
 * [Sep 2025] Our journal paper about malware concept drift will appear in Computing. 
-* [Apr 2025] My Ph.D. student (Mehdi Mirnajafizadeh) received the **Michael Conrad Award ($1,000)** for his first-authored paper in **USENIX Security 2024**. 
+* [Apr 2025] Ph.D. student (Mehdi Mirnajafizadeh) received the **Michael Conrad Award ($1,000)** for his first-authored paper in **USENIX Security 2024**. 
 * [Feb 2025] Our in-network defense paper titled "SketchFeature: High-Quality Per-Flow Feature Extractor Towards Security-Aware Data Plane" will be presented at the top security conference, **ISOC NDSS 2025**.
 * [Dec 2024] Received **Best Paper Award** in WISE 2024 for our paper titled "Exposing the Limitations of Machine Learning for Malware Detection Under Concept Drift."
 * [Aug 2024] Our in-network collaborative system paper titled "Enhancing Network Attack Detection with Distributed and In-Network Data Collection System" will be presented in the top security conference, **USENIX Security 2024**.
