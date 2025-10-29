@@ -3,11 +3,11 @@ main:
   - title: "NIDS-Lab"
     url: /team/
 
+  - title: "Service"
+    url: /terms/  
+
   - title: "Publications"
     url: /publications/
-
- # - title: "Talks"
- #   url: /talks/    
 
   - title: "Teaching"
     url: /teaching/    
