@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Rhongho Jang is an assistant professor in the Department of Computer Science at Wayne State University. He received his Ph.D. in the Department of Computer Science at the University of Central Florida in 2020. 
+Rhongho Jang is an assistant professor in the Department of Computer Science at Wayne State University. He received his Ph.D. in Computer Science from the University of Central Florida in 2020. 
 He is the director of [NIDS Lab](/team/). 
 
 <b>Research:</b> Programmable Switch, In-network Computing, Network Intelligence, Cyber Defense
@@ -49,7 +49,7 @@ Professional Service
 
 ---
 
-### Conference Organization / Technical Committee
+### Conference Organization Committee
 | Role | Conference | Year |
 |------|-------------|------|
 | Technical Program Chair | IEEE Conference on Dependable and Secure Computing (DSC) | 2025 |
@@ -59,7 +59,6 @@ Professional Service
 | Virtual Conference Chair | ACM Conference on Computer and Communications Security (CCS) | 2021 |
 | Publicity Chair | IEEE Conference on Distributed Computing Systems (ICDCS) | 2021 |
 | Web Chair | ACM Conference on emerging Networking EXperiments and Technologies (CoNEXT) | 2019 |
-| TPC | ICDCS, NeurIPS, AdvML Frontier@ICML & NIPS, MSN, MASS, CSoNet, etc. | — |
 
 ---
 
