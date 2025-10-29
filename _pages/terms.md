@@ -45,6 +45,6 @@ author_profile: true
 
 
 ### Community Service & K–12 Outreach
-- **Cybersecurity Education Advisory Committee** — South & West Washtenaw Consortium (SWWC), MI (2021–present)  
+- **Cybersecurity Education Advisory Committee**, South & West Washtenaw Consortium (SWWC), 2021–present  
 
 🔗 [**Media:** *Cybersecurity programs prepare Washtenaw County high schoolers for future careers (Oct. 23, 2025)*](https://concentratemedia.com/cybersecurity-programs-prepare-washtenaw-county-high-schoolers-for-future-careers/)
