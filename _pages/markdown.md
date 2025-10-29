@@ -1,6 +1,6 @@
 ---
 permalink: /team/
-title: "Networked intelligence and Distributed Security"
+title: "Networked Intelligence and Distributed Security"
 author_profile: true
 redirect_from: 
   - /md/
