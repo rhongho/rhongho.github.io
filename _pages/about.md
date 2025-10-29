@@ -20,7 +20,7 @@ He is the director of [NIDS Lab](/team/).
 
 Recent News
 ---
-<small>
+
 * [Sep 2025] Our journal paper about malware concept drift will appear in Computing. 
 * [Apr 2025] My Ph.D. student (Seyed Mohammad Mehdi Mirnajafizadeh) received the Michael Conrad Award ($1,000) for his first-authored paper in USENIX Security 2024. 
 * [Feb 2025] Our in-network defense paper titled "SketchFeature: High-Quality Per-Flow Feature Extractor Towards Security-Aware Data Plane" will be presented in the top security conference, ISOC NDSS 2025.
@@ -41,6 +41,6 @@ Recent News
 * [Jan 2020] Our paper titled "Systemically Evaluating the Robustness of ML-based IoT Malware Detectors" received the Best Fast Abstract Award in IEEE DSN 2021.
 * [Jul 2020] Two papers accepted in IEEE INFOCOM 2020: 1) network security and 2) web privacy.
 * [Mar 2020] Our malware adversarial learning paper is accepted in IEEE ICDCS 2020.
-</small>
+
 
 
