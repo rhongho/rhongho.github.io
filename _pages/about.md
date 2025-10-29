@@ -10,7 +10,7 @@ redirect_from:
 Rhongho Jang is an assistant professor in the Department of Computer Science at Wayne State University. He received his Ph.D. in the Department of Computer Science at the University of Central Florida in 2020. 
 He is the director of [NIDS Lab](/team/). 
 
-<b>Research:</b> P4, Network Programmability, Network Intelligence, Intrusion Detection, Cyber Defense
+<b>Research:</b> Programmable Switch, In-network Computing, Network Intelligence, Cyber Defense
 <br>
 <b>Student Papers:</b>  [NDSS 2025] [Security 2024] [NDSS 2023] [CCS 2022]
 
