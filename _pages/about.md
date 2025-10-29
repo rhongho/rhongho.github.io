@@ -12,7 +12,7 @@ He is the director of [NIDS Lab](/team/).
 
 <b>Research:</b> Programmable Switch, In-network Computing, Network Intelligence, Cyber Defense
 <br>
-<b>Student Papers:</b>  [NDSS 2025](https://www.ndss-symposium.org/ndss-paper/sketchfeature-high-quality-per-flow-feature-extractor-towards-security-aware-data-plane/) [Security 2024] [NDSS 2023] [CCS 2022]
+<b>Student Papers:</b>  [NDSS 2025](https://www.ndss-symposium.org/ndss-paper/sketchfeature-high-quality-per-flow-feature-extractor-towards-security-aware-data-plane/) [Security 2024](https://www.usenix.org/conference/usenixsecurity24/presentation/mirnajafizadeh) [NDSS 2023](https://www.ndss-symposium.org/ndss-paper/a-robust-counting-sketch-for-data-plane-intrusion-detection/) [CCS 2022](https://dl.acm.org/doi/10.1145/3548606.3560606)
 
 
 Recent News
