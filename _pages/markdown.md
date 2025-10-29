@@ -22,7 +22,7 @@ Networked Intelligence and Distributed Security (NIDS) Lab's vision is to advanc
 
 ## Research Area & Recent Outcomes
 
-  * In-Network Computing: [ISOC NDSS 2025] [USENIX SECURITY 2024] [ISOC NDSS 2023] [ACM CCS 2022]
+  * In-Network Computing: [NDSS 2025] [SECURITY 2024] [NDSS 2023] [CCS 2022]
   * Probabilistic (Sketch) Algorithm: [DSN 2022] [INFOCOM 2020a]
   * Malware Analysis: [WISE 2024] [RAID 2022] [TDSC 2022] [ICDCS 2020]
   * AI & ML Applicaitons: [NIPS 2022] [INFOCOM 2020b]
