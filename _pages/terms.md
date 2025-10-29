@@ -1,10 +1,9 @@
 ---
-permalink: /terms/
+layout: archive
 title: "Service"
+permalink: /terms/
+author_profile: true
 ---
-
-{% include base_path %}
-{% include toc %}
 
 Professional Service
 ---
