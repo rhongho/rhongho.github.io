@@ -12,7 +12,7 @@ He is the director of [NIDS Lab](/team/).
 
 <b>Research:</b> Programmable Switch, In-network Computing, Network Intelligence, Cyber Defense
 <br>
-<b>Student Papers:</b>  [NDSS 2025] [Security 2024] [NDSS 2023] [CCS 2022]
+<b>Student Papers:</b>  [NDSS 2025](https://www.ndss-symposium.org/ndss-paper/sketchfeature-high-quality-per-flow-feature-extractor-towards-security-aware-data-plane/) [Security 2024] [NDSS 2023] [CCS 2022]
 
 
 Recent News
