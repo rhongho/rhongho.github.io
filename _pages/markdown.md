@@ -21,7 +21,6 @@ Networked Intelligence and Distributed Security (NIDS) Lab's vision is to advanc
 * Ashwin Raam Sethuram (2024) $$\rightarrow$$ WSU, Industrial Engineering, Ph.D. Program
 
 ## Research Area & Recent Outcomes
-
   * In-Network Computing: [NDSS 2025] [SECURITY 2024] [NDSS 2023] [CCS 2022]
   * Probabilistic (Sketch) Algorithm: [DSN 2022] [INFOCOM 2020a]
   * Malware Analysis: [WISE 2024] [RAID 2022] [TDSC 2022] [ICDCS 2020]
