@@ -22,7 +22,7 @@ author_profile: true
 
 
 
-### Journal Reviewer **(99 peer review records of 77 manuscripts verified in Web of Science™, 2020–2025)**  
+### Journal Reviewer **([Verified in Web of Science™](https://www.webofscience.com/wos/author/record/AAG-8561-2019))**  
 
 *Areas:* network security, programmable data planes, AI-driven cyber defense, and privacy-preserving systems.
 
