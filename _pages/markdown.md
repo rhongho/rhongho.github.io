@@ -13,9 +13,7 @@ Networked Intelligence and Distributed Security (NIDS) Lab's vision is to advanc
 
 ## Current Members
 * Seyed Mohammad Mehdi Mirnajafizadeh, Ph.D. Student, 2022
-* Seungsam Yang, Ph.D. Student, 2023
 * Fatima Kamal Khaja, Ph.D. Student, 2024
-* Sian Kim, Ph.D. Student, Co-advised with Prof. DaeHun Nyang, Ewha Womans University
 
 ## Alumni
 * Ashwin Raam Sethuram (2024) $$\rightarrow$$ WSU, Industrial Engineering, Ph.D. Program
