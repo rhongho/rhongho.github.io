@@ -20,6 +20,7 @@ He is the director of [NIDS Lab](/team/).
 
 Recent News
 ---
+* [Mar 2026] Mehdi will join Google for his first summer internship!
 * [Dec 2025] Low-and-slow threat detection paper accepted in **USENIX NSDI 2026**. Congrats to Mehdi!
 * [Oct 2025] Mehdi is selected as a Distinguished AE Reviewer for USENIX Security, congrats!
 * [Sep 2025] Malware concept drift paper to appear in **Computing**.
