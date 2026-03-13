@@ -42,7 +42,6 @@ Recent News
 * [Jan 2021] **Best Fast Abstract Award** for IoT malware defense at **IEEE DSN 2021**.
 * [Jul 2020] Two papers (Security/Privacy) accepted in **IEEE INFOCOM 2020**.
 * [Mar 2020] Malware adversarial learning paper accepted in **IEEE ICDCS 2020**.
-* 
  
 
 
