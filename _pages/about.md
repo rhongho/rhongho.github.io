@@ -20,8 +20,9 @@ He is the director of [NIDS Lab](/team/).
 
 Recent News
 ---
+* [Oct 2025] Mehdi selected as one of the Distinguished Artifact Evaluation (AE) Reviewers for USENIX Security, congrats!
 * [Sep 2025] Malware concept drift paper to appear in **Computing**.
-* [Apr 2025] Mehdi Mirnajafizadeh received **Michael Conrad Award ($1,000)** for **USENIX Security 2024** paper.
+* [Apr 2025] Mehdi received **Michael Conrad Award ($1,000)** for **USENIX Security 2024** paper, congrats!
 * [Feb 2025] "SketchFeature" in-network defense paper to be presented at **ISOC NDSS 2025**.
 * [Dec 2024] **Best Paper Award** at WISE 2024 for malware concept drift research.
 * [Aug 2024] In-network data collection paper to be presented at **USENIX Security 2024**.
