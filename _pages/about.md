@@ -20,7 +20,7 @@ He is the director of [NIDS Lab](/team/).
 
 Recent News
 ---
-* [Dec 2025] Low-and-slow threat detection paper accepted in **USENIX NSDI 2026**. This is Mehdi's second first-authored paper, huge congratulations!
+* [Dec 2025] Low-and-slow threat detection paper accepted in **USENIX NSDI 2026**. Huge congrats to Mehdi!
 * [Oct 2025] Mehdi selected as one of the Distinguished Artifact Evaluation (AE) Reviewers for USENIX Security, congratulations!
 * [Sep 2025] Malware concept drift paper to appear in **Computing**.
 * [Apr 2025] Mehdi received **Michael Conrad Award ($1,000)** for **USENIX Security 2024** paper, congrats!
