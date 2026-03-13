@@ -20,7 +20,28 @@ He is the director of [NIDS Lab](/team/).
 
 Recent News
 ---
+* [Sep 2025] Malware concept drift paper to appear in **Computing**.
+* [Apr 2025] Mehdi Mirnajafizadeh received **Michael Conrad Award ($1,000)** for **USENIX Security 2024** paper.
+* [Feb 2025] "SketchFeature" in-network defense paper to be presented at **ISOC NDSS 2025**.
+* [Dec 2024] **Best Paper Award** at WISE 2024 for malware concept drift research.
+* [Aug 2024] In-network data collection paper to be presented at **USENIX Security 2024**.
+* [Aug 2023] Received **$18,000 NSF travel grant** (PI) for IEEE CNS 2022.
+* [Apr 2023] Hospital website security paper accepted in **IEEE ICCCN 2023**.
+* [Feb 2023] In-network traffic measurement paper to be presented at **ISOC NDSS 2023**.
+* [Sep 2022] Transformer explainability paper accepted in **NeurIPS 2022**.
+* [Aug 2022] Received **$600,000 NSF grant** (Co-PI) for trustworthy AI research.
+* [Jul 2022] In-network ACL defense paper to appear at **ACM CCS 2022**.
+* [Jun 2022] Malware detection system analysis paper accepted in **RAID 2022**.
+* [May 2022] Free content website analysis paper to be presented at **ACM CySSS@AsiaCCS 2022**.
+* [Mar 2022] Flow spread estimation algorithm paper accepted in **IEEE DSN 2022**.
+* [Aug 2021] DNS resolver behavioral analysis paper accepted in **IEEE/ACM ToN**.
+* [Jul 2021] Robust malware detection paper accepted in **IEEE TDSC**.
+* [Feb 2021] Wearable computing paper accepted in **IEEE TMC**.
+* [Jul 2020] Two papers (Security/Privacy) accepted in **IEEE INFOCOM 2020**.
+* [Mar 2020] Malware adversarial learning paper accepted in **IEEE ICDCS 2020**.
+* [Jan 2020] **Best Fast Abstract Award** for IoT malware defense at **IEEE DSN 2021**.
 
+  <!--
 * [Sep 2025] Our journal paper about malware concept drift will appear in Computing. 
 * [Apr 2025] Ph.D. student (Mehdi Mirnajafizadeh) received the **Michael Conrad Award ($1,000)** for his first-authored paper in **USENIX Security 2024**. 
 * [Feb 2025] Our in-network defense paper titled "SketchFeature: High-Quality Per-Flow Feature Extractor Towards Security-Aware Data Plane" will be presented at the top security conference, **ISOC NDSS 2025**.
@@ -40,7 +61,7 @@ Recent News
 * [Feb 2021] Our wearable computing paper is accepted in IEEE Transactions on Mobile Computing (TMC).
 * [Jan 2020] Received **Best Fast Abstract Award** for robustness analysis of ML-based IoT malware detectors in IEEE DSN 2021.
 * [Jul 2020] Two papers accepted in IEEE INFOCOM 2020: 1) network security and 2) web privacy.
-* [Mar 2020] Our malware adversarial learning paper is accepted in IEEE ICDCS 2020.
+* [Mar 2020] Our malware adversarial learning paper is accepted in IEEE ICDCS 2020.-->
 
 
 
