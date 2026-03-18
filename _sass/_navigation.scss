@@ -200,24 +200,39 @@
     top: 0;
     right: 0;
     padding: 0;
-    border: 0;
     outline: none;
-    background-color: #F8B800;
-    box-shadow:
-      inset -3px -4px 0 #C47F00,
-      inset 3px 3px 0 #FFE066;
-    color: #7A3B00;
     cursor: pointer;
     z-index: 100;
-    font-size: 1.1em;
+    transition: transform 0.1s;
+
+    /* Base yellow */
+    background-color: #F8B800;
+
+    /* Pixel grid texture */
+    background-image:
+      linear-gradient(rgba(0,0,0,0.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,0,0,0.07) 1px, transparent 1px);
+    background-size: 6px 6px;
+
+    /* Outer dark border + inner bevel */
+    border: 3px solid #3D1A00;
+    box-shadow:
+      inset 3px 3px 0 #FFE97A,
+      inset -3px -3px 0 #A06200,
+      inset 6px 6px 0 rgba(255,255,255,0.12);
+
+    /* "?" label */
+    color: #3D1A00;
+    font-size: 1.05em;
     font-weight: 900;
     font-family: 'Press Start 2P', monospace;
-    text-shadow: 2px 2px 0 #C47F00, -1px -1px 0 #FFE566;
-    transition: background-color 0.1s;
+    text-shadow:
+      1px 1px 0 #FFE97A,
+      -1px -1px 0 rgba(0,0,0,0.25);
 
     &:hover {
-      background-color: #FFD000;
-      animation: mystery-bump 0.2s ease;
+      background-color: #FFD030;
+      animation: mystery-bump 0.25s ease;
     }
 
     .navicon,
@@ -230,14 +245,15 @@
       content: "?";
       display: block;
       text-align: center;
-      line-height: $masthead-height;
+      line-height: calc(#{$masthead-height} - 6px);
     }
   }
 
   @keyframes mystery-bump {
-    0%   { transform: translateY(0); }
-    40%  { transform: translateY(-5px); }
-    100% { transform: translateY(0); }
+    0%   { transform: translateY(0) scaleY(1); }
+    30%  { transform: translateY(-6px) scaleY(1.05); }
+    60%  { transform: translateY(-3px) scaleY(0.97); }
+    100% { transform: translateY(0) scaleY(1); }
   }
 
   .visible-links {
