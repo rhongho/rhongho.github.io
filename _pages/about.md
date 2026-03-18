@@ -243,32 +243,32 @@ redirect_from:
     <span class="news-text">Mehdi's first paper as lead author to be presented at <span class="news-venue">USENIX Security 2024</span>.</span>
   </li>
 
-  <li class="news-item news-old">
+  <li class="news-item">
     <span class="news-date">Aug 2023</span>
     <span class="news-text"><span class="news-badge grant">Grant</span> Received <strong>NSF travel grant</strong> (PI) for IEEE CNS 2022.</span>
   </li>
 
-  <li class="news-item news-old">
+  <li class="news-item">
     <span class="news-date">Apr 2023</span>
     <span class="news-text">Hospital website security paper accepted in <span class="news-venue">IEEE ICCCN 2023</span>.</span>
   </li>
 
-  <li class="news-item news-old">
+  <li class="news-item">
     <span class="news-date">Feb 2023</span>
     <span class="news-text">In-network traffic measurement paper to be presented at <span class="news-venue">ISOC NDSS 2023</span>.</span>
   </li>
 
-  <li class="news-item news-old">
+  <li class="news-item">
     <span class="news-date">Sep 2022</span>
     <span class="news-text">Transformer explainability paper accepted in <span class="news-venue">NeurIPS 2022</span>.</span>
   </li>
 
-  <li class="news-item news-old">
+  <li class="news-item">
     <span class="news-date">Aug 2022</span>
     <span class="news-text"><span class="news-badge grant">Grant</span> Received <strong>NSF HCC grant</strong> (Co-PI) for AI for social goods.</span>
   </li>
 
-  <li class="news-item news-old">
+  <li class="news-item">
     <span class="news-date">Jul 2022</span>
     <span class="news-text">In-network ACL defense paper to appear at <span class="news-venue">ACM CCS 2022</span>.</span>
   </li>
