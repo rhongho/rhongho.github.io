@@ -1,6 +1,6 @@
 ---
 permalink: /team/
-title: "Research"
+title: "NIDS Lab"
 author_profile: true
 redirect_from:
   - /md/
