@@ -231,7 +231,7 @@ redirect_from:
     text-align: left;
   }
   .sponsor-item:last-child {
-    padding-left: 15px;
+    padding-left: 8px;
   }
 }
 </style>
