@@ -244,7 +244,7 @@ redirect_from:
     <span class="hero-title">Adjunct Assistant Professor · AI and Data Science (AIDaS) Institute</span>
   </div>
   <div class="hero-bio">
-    I received dual Ph.D. degrees in Computer Science (2020), advised by <a href="https://www.cs.ucf.edu/~mohaisen/" target="_blank" style="color:#a8e6df;font-weight:600;">Dr. David Mohaisen</a> (University of Central Florida) and <a href="https://pure.ewha.ac.kr/en/persons/daehun-nyang" target="_blank" style="color:#a8e6df;font-weight:600;">Dr. DaeHun Nyang</a> (Ewha Womans University), and completed a research internship at the USC Information Sciences Institute (ISI) in 2019.
+    I received dual Ph.D. degrees in Computer Science and Engineering (2020), advised by <a href="https://www.cs.ucf.edu/~mohaisen/" target="_blank" style="color:#a8e6df;font-weight:600;">Dr. David Mohaisen</a> (University of Central Florida) and <a href="https://pure.ewha.ac.kr/en/persons/daehun-nyang" target="_blank" style="color:#a8e6df;font-weight:600;">Dr. DaeHun Nyang</a> (Ewha Womans University), and completed a research internship at the USC Information Sciences Institute (ISI) in 2019.
     I'm directing the <a href="/team/" style="color:#a8e6df;font-weight:600;">NIDS Lab</a> (Networked Intelligence and Distributed Security), where we build next-generation systems that narrow the deployment gap between programmable hardware and AI.
   </div>
   <div class="hero-interests-label">Research Interests</div>
