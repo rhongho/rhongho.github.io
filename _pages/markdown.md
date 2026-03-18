@@ -187,6 +187,13 @@ redirect_from:
 .spotlight-authors { font-size: 0.78em; color: #777; }
 </style>
 
+<!-- ── Vision ─────────────────────────────── -->
+<div class="vision-box">
+  <h2>NIDS Lab</h2>
+  <div class="vision-subtitle">Networked Intelligence and Distributed Security &nbsp;·&nbsp; Wayne State University</div>
+  <p>Our vision is to advance the design and security of networked and distributed systems through cutting-edge research in artificial intelligence and cybersecurity. We develop innovative technologies that ensure robust, scalable, and secure knowledge convergence across various platforms - fostering safer cyber environments that promote scientific and technological progress.</p>
+</div>
+
 <!-- Sponsors -->
 <div style="display:flex;align-items:center;gap:28px;margin-bottom:28px;padding:16px 24px;background:#fff;border:1px solid #e8e8e8;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,0.05);">
   <span style="font-size:0.68em;color:#aaa;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;white-space:nowrap;">Supported by</span>
