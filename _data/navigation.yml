@@ -6,11 +6,11 @@ main:
   - title: "Research"
     url: /team/
 
+  - title: "Publication"
+    url: /publications/
+
   - title: "Service"
     url: /services/
-
-  - title: "Publications"
-    url: /publications/
 
 
   - title: "Teaching"
