@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.usenix.org)",
+      "Bash(grep \"^venue:\" /Users/hf8512/Documents/Website/_publications/*.md)"
+    ]
+  }
+}

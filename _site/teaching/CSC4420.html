@@ -1,0 +1,649 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>CSC 4420 - Computer Operating Systems - Rhongho Jang</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Rhongho Jang">
+<meta property="og:title" content="CSC 4420 - Computer Operating Systems">
+
+
+  <link rel="canonical" href="http://localhost:4000/teaching/CSC4420">
+  <meta property="og:url" content="http://localhost:4000/teaching/CSC4420">
+
+
+
+  <meta property="og:description" content="">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2026-04-01T00:00:00-07:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Rhongho Jang",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Rhongho Jang Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="http://localhost:4000/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="http://localhost:4000/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="http://localhost:4000/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="http://localhost:4000/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css"/>
+
+
+<!-- Support for MatJax -->
+<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><span style="cursor:default;color:#ffffff;font-size:1em;font-weight:900;letter-spacing:0.04em;">Rhongho Jang</span></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/">Index</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/team/">Research</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/services/">Service</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/teaching/">Teaching</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="http://localhost:4000/images/jy6.jpg" class="author__avatar" alt="Rhongho Jang">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Rhongho Jang</h3>
+    
+    <p class="author__bio">Assistant Professor</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      <!-- Font Awesome icons / Biographic information  -->
+      
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" style="color:#e53935;" aria-hidden="true"></i>Detroit</li>
+      
+      
+        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" style="color:#093f39;" aria-hidden="true"></i>Wayne State University</li>
+      
+      
+        <li><a href="https://engineering.wayne.edu/profile/hf8512"><i class="fas fa-fw fa-link icon-pad-right" style="color:#1565c0;" aria-hidden="true"></i>Website</a></li>
+      
+      
+        <li><a href="mailto:r.jang@wayne.edu"><i class="fas fa-fw fa-envelope icon-pad-right" style="color:#e65100;" aria-hidden="true"></i>Email</a></li>
+      
+
+      <!-- Font Awesome and Academicons icons / Academic websites -->
+      
+      
+        <li><a href="https://scholar.google.co.kr/citations?user=h9Nfyf0AAAAJ&hl"><i class="ai ai-google-scholar icon-pad-right" style="color:#4285F4;"></i>Google Scholar</a></li>
+      
+      
+      
+      
+      
+      
+
+      <!-- Font Awesome icons / Repositories and software development -->
+      
+      
+      
+      
+        <li><a href="https://github.com/NIDS-LAB"><i class="fab fa-fw fa-github icon-pad-right" style="color:#333;" aria-hidden="true"></i>Github</a></li>
+      
+            
+            
+
+      <!-- Font Awesome icons / Social media -->
+      
+      
+            
+      
+                  
+                  
+      
+            
+            
+            
+      
+            
+                  
+            
+      
+            
+            
+      
+              
+      
+                      
+      
+      
+            
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="CSC 4420 - Computer Operating Systems">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="April 01, 2026">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">CSC 4420 - Computer Operating Systems
+</h1>
+          
+        
+        
+        
+          <p> Every Winter, <i>Department of Computer Science, Wayne State University</i>, 2026 </p>
+            
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <style>
+.cs-info-bar {
+  display: flex; flex-wrap: wrap; gap: 10px;
+  background: #f0f4ff; border-radius: 8px;
+  padding: 14px 18px; margin-bottom: 24px;
+  font-size: 0.88em;
+}
+.cs-info-item { display: flex; align-items: center; gap: 6px; color: #333; }
+.cs-info-item strong { color: #1565c0; }
+
+.cs-section { margin: 28px 0; }
+.cs-section-title {
+  font-size: 1.1em; font-weight: 700;
+  border-left: 4px solid #1565c0;
+  padding-left: 10px; margin-bottom: 14px;
+  color: #1a1a1a;
+}
+
+/* Objective cards */
+.obj-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 14px; margin-bottom: 6px;
+}
+.obj-card {
+  background: #fff; border: 1px solid #e0e0e0;
+  border-top: 3px solid #1565c0;
+  border-radius: 6px; padding: 14px;
+  font-size: 0.85em;
+}
+.obj-card-title { font-weight: 700; color: #1565c0; margin-bottom: 5px; }
+.obj-card-desc { color: #555; line-height: 1.5; }
+
+/* Topics grid */
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+}
+.topic-card {
+  background: #fff; border: 1px solid #e0e0e0;
+  border-radius: 8px; padding: 14px;
+}
+.topic-card-header {
+  font-weight: 700; font-size: 0.9em;
+  color: #fff; background: #1565c0;
+  border-radius: 4px; padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.topic-card ul { margin: 0; padding-left: 16px; font-size: 0.83em; color: #444; line-height: 1.7; }
+
+/* Grading */
+.grade-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px; margin-bottom: 16px;
+}
+.grade-card {
+  background: #fff; border: 1px solid #e0e0e0;
+  border-radius: 8px; padding: 14px; text-align: center;
+}
+.grade-pct { font-size: 2em; font-weight: 700; color: #1565c0; }
+.grade-label { font-size: 0.8em; color: #555; margin-top: 3px; }
+
+.grade-scale {
+  display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px;
+}
+.grade-badge {
+  background: #1565c0; color: #fff;
+  border-radius: 6px; padding: 4px 12px;
+  font-size: 0.8em; font-weight: 700;
+}
+.grade-badge span { font-weight: 400; opacity: 0.85; }
+
+/* Lab cards */
+.lab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+.lab-card {
+  background: #fff; border: 1px solid #e0e0e0;
+  border-left: 4px solid #43a047;
+  border-radius: 0 8px 8px 0; padding: 12px 14px;
+  font-size: 0.84em;
+}
+.lab-card-title { font-weight: 700; color: #2e7d32; margin-bottom: 4px; }
+
+/* Policy boxes */
+.policy-row { display: flex; flex-wrap: wrap; gap: 12px; }
+.policy-box {
+  flex: 1; min-width: 200px;
+  background: #fff3e0; border-radius: 8px;
+  padding: 12px 16px; font-size: 0.85em;
+}
+.policy-box.blue { background: #e3f2fd; }
+.policy-box-title { font-weight: 700; color: #e65100; margin-bottom: 5px; }
+.policy-box.blue .policy-box-title { color: #1565c0; }
+
+/* Prereq / textbook */
+.prereq-row { display: flex; flex-wrap: wrap; gap: 14px; }
+.prereq-box {
+  flex: 1; min-width: 200px;
+  background: #fff; border: 1px solid #e0e0e0;
+  border-radius: 8px; padding: 14px; font-size: 0.85em;
+}
+.prereq-box-title { font-weight: 700; color: #1565c0; margin-bottom: 8px; }
+</style>
+
+<!-- Info bar -->
+<div class="cs-info-bar">
+  <div class="cs-info-item">&#128197; <strong>Term:</strong>&nbsp;Winter 2026</div>
+  <div class="cs-info-item">&#9200; <strong>Time:</strong>&nbsp;MW 11:30 AM – 12:45 PM</div>
+  <div class="cs-info-item">&#128101; <strong>Office Hours:</strong>&nbsp;MW 1:00 PM – 2:00 PM &nbsp;|&nbsp; 14th Floor, 5057 Woodward Ave</div>
+</div>
+
+<!-- Description -->
+<div class="cs-section">
+<div class="cs-section-title">Course Description</div>
+<p style="font-size:0.93em;color:#333;line-height:1.7;">
+The operating system is an essential software layer for various computing devices. This course covers modern operating systems' basic components and design principles - including <strong>process &amp; thread</strong>, <strong>CPU scheduling</strong>, <strong>memory management</strong>, <strong>file systems</strong>, and more. Students also gain hands-on programming experience using Linux system calls and design and implement a cloud-based file system.
+</p>
+</div>
+
+<!-- Objectives -->
+<div class="cs-section">
+<div class="cs-section-title">Course Objectives</div>
+<div class="obj-grid">
+  <div class="obj-card">
+    <div class="obj-card-title">OS Principles</div>
+    <div class="obj-card-desc">Understand OS primitives, design concepts, responsibilities, and impacts on real-world computing problems.</div>
+  </div>
+  <div class="obj-card">
+    <div class="obj-card-title">Comprehensive Understanding</div>
+    <div class="obj-card-desc">Develop a thorough understanding of OS primitives - design concepts, algorithms, pros and cons, and relevant computing tasks.</div>
+  </div>
+  <div class="obj-card">
+    <div class="obj-card-title">Programming Skills</div>
+    <div class="obj-card-desc">Enhance programming skills and improve software efficiency by accommodating OS behaviors and mechanisms.</div>
+  </div>
+  <div class="obj-card">
+    <div class="obj-card-title">Security &amp; Vulnerabilities</div>
+    <div class="obj-card-desc">Extend OS knowledge to computer vulnerabilities and security protections.</div>
+  </div>
+</div>
+</div>
+
+<!-- Topics -->
+<div class="cs-section">
+<div class="cs-section-title">Topics</div>
+<div class="topic-grid">
+  <div class="topic-card">
+    <div class="topic-card-header">Process &amp; CPU</div>
+    <ul>
+      <li>OS Foundation</li>
+      <li>Interfaces &amp; System Calls</li>
+      <li>Processes and Threads</li>
+      <li>Process Synchronization</li>
+      <li>CPU Scheduling</li>
+      <li>Recent Topics in CPU &amp; GPU</li>
+    </ul>
+  </div>
+  <div class="topic-card">
+    <div class="topic-card-header">Memory &amp; Storage</div>
+    <ul>
+      <li>Memory Management</li>
+      <li>Recent Topics in Memory</li>
+      <li>File System</li>
+      <li>Recent Topics in Storage</li>
+    </ul>
+  </div>
+  <div class="topic-card">
+    <div class="topic-card-header">Systems &amp; Networking</div>
+    <ul>
+      <li>I/O Deadlocks</li>
+      <li>Cloud and Virtualization</li>
+      <li>Distributed Computing</li>
+    </ul>
+  </div>
+  <div class="topic-card">
+    <div class="topic-card-header">Security</div>
+    <ul>
+      <li>OS Security</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<!-- Grading -->
+<div class="cs-section">
+<div class="cs-section-title">Grading Policy</div>
+<div class="grade-grid">
+  <div class="grade-card">
+    <div class="grade-pct">40%</div>
+    <div class="grade-label">Mid-term &amp; Final Exams<br />(lecture-based)</div>
+  </div>
+  <div class="grade-card">
+    <div class="grade-pct">50%</div>
+    <div class="grade-label">In-laboratory Assignments</div>
+  </div>
+  <div class="grade-card">
+    <div class="grade-pct">10%</div>
+    <div class="grade-label">Attendance<br /><em style="font-size:0.85em;color:#e65100;">+10% bonus for both lectures/week</em></div>
+  </div>
+</div>
+<div class="grade-scale">
+  <div class="grade-badge">A <span>90–100%</span></div>
+  <div class="grade-badge">A- <span>85–89%</span></div>
+  <div class="grade-badge">B+ <span>80–84%</span></div>
+  <div class="grade-badge">B <span>75–79%</span></div>
+  <div class="grade-badge">B- <span>70–74%</span></div>
+  <div class="grade-badge">C+ <span>65–69%</span></div>
+  <div class="grade-badge">C <span>62–64%</span></div>
+  <div class="grade-badge">C- <span>60–61%</span></div>
+  <div class="grade-badge">D <span>55–59%</span></div>
+  <div class="grade-badge">F <span>0–54%</span></div>
+</div>
+</div>
+
+<!-- Lab Sessions -->
+<div class="cs-section">
+<div class="cs-section-title">Lab Sessions</div>
+<p style="font-size:0.88em;color:#444;margin-bottom:12px;">Labs are dedicated to hands-on practice. <strong>100% lab attendance is required</strong> - assignments are completed in-session. Lectures focus on theory and conceptual deep dives; attend at least one per week.</p>
+<div class="lab-grid">
+  <div class="lab-card">
+    <div class="lab-card-title">Warming Up</div>
+    4–6 introductory labs to familiarize with core OS concepts.
+  </div>
+  <div class="lab-card">
+    <div class="lab-card-title">Security Awareness</div>
+    2–3 security labs for a deeper understanding of OS vulnerabilities.
+  </div>
+  <div class="lab-card">
+    <div class="lab-card-title">Enhancing Experience</div>
+    1 project on file system concepts. Vibe coding allowed.
+  </div>
+  <div class="lab-card">
+    <div class="lab-card-title">Future Preparation</div>
+    Exposure to an entry-level memory-safe language (e.g., Rust) to prepare for future opportunities.
+  </div>
+</div>
+</div>
+
+<!-- Prerequisites & Textbook -->
+<div class="cs-section">
+<div class="cs-section-title">Prerequisites &amp; Materials</div>
+<div class="prereq-row">
+  <div class="prereq-box">
+    <div class="prereq-box-title">Prerequisites</div>
+    <ul style="margin:0;padding-left:16px;line-height:1.8;">
+      <li>CSC 3100/3101 - Computer Architecture and Organization</li>
+      <li>CSC 2200/2201 - Computer Science II</li>
+    </ul>
+    <p style="margin:8px 0 0;color:#777;font-size:0.9em;">Exceptions granted by instructor permission only.<br />
+    <strong>Co-requisite:</strong> CSC 4420 Laboratory (must enroll in lab).</p>
+  </div>
+  <div class="prereq-box">
+    <div class="prereq-box-title">Textbook</div>
+    <strong>Modern Operating Systems</strong><br />
+    Andrew S. Tanenbaum, 5th Edition, Pearson, 2022
+    <div class="prereq-box-title" style="margin-top:12px;">References</div>
+    <ul style="margin:0;padding-left:16px;line-height:1.8;color:#555;">
+      <li>Operating System Concepts, 8th Ed., Wiley, 2008</li>
+      <li>Understanding the Linux Kernel, 3rd Ed., O'Reilly, 2005</li>
+      <li>Advanced UNIX Programming, 2nd Ed., Pearson, 2004</li>
+      <li>Advanced Programming in the UNIX Environment, Addison-Wesley, 1992</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<!-- Policies -->
+<div class="cs-section">
+<div class="cs-section-title">Policies</div>
+<div class="policy-row">
+  <div class="policy-box blue">
+    <div class="policy-box-title">AI Policy</div>
+    Partially allowed upon approval. Detailed instructions will be given with each assignment.
+  </div>
+  <div class="policy-box blue">
+    <div class="policy-box-title">Academic Integrity</div>
+    All forms of academic misbehavior are prohibited. Refer to the <a href="https://doso.wayne.edu/conduct" target="_blank">WSU Student Code of Conduct</a>.
+  </div>
+  <div class="policy-box blue">
+    <div class="policy-box-title">Laptop Required</div>
+    A laptop or computer is required to run a Linux virtual machine for lab assignments.
+  </div>
+  <div class="policy-box blue">
+    <div class="policy-box-title">Disability Services</div>
+    Register with <a href="https://studentdisability.wayne.edu/" target="_blank">Student Disability Services</a> for accommodations. Phone: (313) 577-1851.
+  </div>
+</div>
+</div>
+
+
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="http://localhost:4000/teaching/CSC5290" class="pagination--pager" title="CSC 5290 - Cyber Security Practice
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<!-- end custom footer snippets -->
+
+        
+
+
+<div class="page__footer-copyright">&copy; 2026 Rhongho Jang. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>. Built with <a href="https://claude.ai/code" rel="nofollow">Claude Code</a>.</div>
+
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
+

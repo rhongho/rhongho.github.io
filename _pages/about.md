@@ -1,49 +1,321 @@
 ---
-layout: archive
+layout: single
 permalink: /
-title: "About me"
+title: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Rhongho Jang is an assistant professor in the Department of Computer Science at Wayne State University. He received his Ph.D. in Computer Science from the University of Central Florida in 2020. 
-He is the director of [NIDS Lab](/team/). 
+<style>
 
-<b>Research:</b> Programmable Switch, In-network Computing, Network Intelligence, Cyber Defense
-<br>
-<!-- <b>Student Papers:</b>  [NDSS 2025](https://www.ndss-symposium.org/ndss-paper/sketchfeature-high-quality-per-flow-feature-extractor-towards-security-aware-data-plane/) [Security 2024](https://www.usenix.org/conference/usenixsecurity24/presentation/mirnajafizadeh) [NDSS 2023](https://www.ndss-symposium.org/ndss-paper/a-robust-counting-sketch-for-data-plane-intrusion-detection/) [CCS 2022](https://dl.acm.org/doi/10.1145/3548606.3560606) -->
+/* ── Hero banner ─────────────────────────────────── */
+.hero-banner {
+  background: #093f39;
+  border-radius: 0;
+  padding: 22px 32px 20px;
+  color: #fff;
+  margin-bottom: 24px;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 97% 100%, 0 100%);
+}
+.hero-name {
+  font-size: 2em;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+.hero-title {
+  display: inline-block;
+  font-size: 0.75em;
+  color: #093f39;
+  background: rgba(255,255,255,0.88);
+  border-radius: 3px;
+  padding: 2px 10px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+.hero-title-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+.hero-bio {
+  font-size: 0.86em;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.88);
+  max-width: 680px;
+  margin-bottom: 14px;
+}
+.hero-interests-label {
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 6px;
+}
+.hero-tags {
+  display: flex; flex-wrap: wrap; gap: 6px;
+}
+.hero-tag {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.35);
+  border-radius: 2px;
+  padding: 3px 10px;
+  font-size: 0.74em;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+
+/* ── Stats row ───────────────────────────────────── */
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 14px;
+  margin-bottom: 32px;
+}
+.stat-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 18px 14px;
+  text-align: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.stat-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.09);
+  transform: translateY(-2px);
+}
+.stat-number {
+  font-size: 1.9em;
+  font-weight: 800;
+  color: #093f39;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.stat-label {
+  font-size: 0.76em;
+  color: #666;
+  line-height: 1.3;
+}
+
+/* ── Section title ───────────────────────────────── */
+.about-section { margin-bottom: 32px; }
+.about-section-title {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #1a1a1a;
+  border-left: 5px solid #093f39;
+  padding-left: 12px;
+  margin-bottom: 16px;
+}
+
+/* ── News feed ───────────────────────────────────── */
+.news-feed { list-style: none; padding: 0; margin: 0; }
+.news-item {
+  display: flex;
+  gap: 10px;
+  padding: 5px 10px;
+  margin-bottom: 3px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-left: 3px solid #093f39;
+  border-radius: 4px;
+  font-size: 0.70em;
+  line-height: 1.3;
+  align-items: center;
+}
+.news-date {
+  white-space: nowrap;
+  font-weight: 700;
+  color: #093f39;
+  font-size: 0.72em;
+  min-width: 62px;
+  background: #f0f7f5;
+  border-radius: 3px;
+  padding: 2px 6px;
+  text-align: center;
+}
+.news-text { color: #333; flex: 1; }
+.news-badge {
+  display: inline-block;
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  color: #856404;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: 700;
+  padding: 2px 7px;
+  margin-right: 4px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.news-badge.award { background: #fff0f0; border-color: #e53935; color: #b71c1c; }
+.news-badge.grant { background: #e8f5e9; border-color: #43a047; color: #1b5e20; }
+.news-venue {
+  font-weight: 700;
+  color: #1565c0;
+}
+</style>
+
+<!-- Hero -->
+<div class="hero-banner">
+  <div class="hero-name">Rhongho Jang</div>
+  <div class="hero-title-wrap">
+    <span class="hero-title">Assistant Professor · Department of Computer Science · Wayne State University</span>
+    <span class="hero-title">Adjunct Assistant Professor · AI and Data Science (AIDaS) Institute</span>
+  </div>
+  <div class="hero-bio">
+    I received dual Ph.D. degrees in Computer Science (2020), advised by <a href="https://www.cs.ucf.edu/~mohaisen/" target="_blank" style="color:#a8e6df;font-weight:600;">Dr. David Mohaisen</a> (University of Central Florida) and <a href="https://pure.ewha.ac.kr/en/persons/daehun-nyang" target="_blank" style="color:#a8e6df;font-weight:600;">Dr. DaeHun Nyang</a> (Ewha Womans University), and completed a research internship at the USC Information Sciences Institute (ISI) in 2019.
+    I'm directing the <a href="/team/" style="color:#a8e6df;font-weight:600;">NIDS Lab</a> (Networked Intelligence and Distributed Security), where we build next-generation systems that narrow the deployment gap between programmable hardware and AI.
+  </div>
+  <div class="hero-interests-label">Research Interests</div>
+  <div class="hero-tags">
+    <span class="hero-tag">Emerging Infrastructure</span>
+    <span class="hero-tag">Network Intelligence</span>
+    <span class="hero-tag">System Resiliency</span>
+<span class="hero-tag">Applied AI</span>
+  </div>
+</div>
 
 
+<!-- Sponsors -->
+<div style="display:flex;align-items:center;gap:28px;margin-bottom:28px;padding:16px 24px;background:#fff;border:1px solid #e8e8e8;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,0.05);">
+  <span style="font-size:0.68em;color:#aaa;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;white-space:nowrap;">Supported by</span>
+  <div style="width:1px;height:40px;background:#e0e0e0;"></div>
+  <a href="https://www.nsf.gov" target="_blank" style="opacity:0.85;transition:opacity 0.2s;text-decoration:none;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.85">
+    <img src="/files/NSF_Official_logo_High_Res_1200ppi.png" alt="NSF" style="height:80px;width:80px;object-fit:contain;display:block;">
+  </a>
+  <a href="https://engineering.wayne.edu/computer-science" target="_blank" style="opacity:0.85;transition:opacity 0.2s;text-decoration:none;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.85">
+    <img src="/files/computer_science_anderson_horz_561.jpg" alt="WSU CS" style="height:80px;object-fit:contain;display:block;">
+  </a>
+</div>
 
+<!-- News -->
+<div class="about-section">
+<div class="about-section-title">Recent News</div>
+<ul class="news-feed">
 
-Recent News
----
-* [Mar 2026] Mehdi will join Google for his first summer internship!
-* [Dec 2025] Low-and-slow threat detection paper accepted in **USENIX NSDI 2026**. Congrats to Mehdi!
-* [Oct 2025] Mehdi is selected as a Distinguished AE Reviewer for USENIX Security, congrats!
-* [Sep 2025] Malware concept drift paper to appear in **Computing**.
-* [Apr 2025] Mehdi received **Michael Conrad Award ($1,000)** for **USENIX Security 2024** paper, congrats!
-* [Feb 2025] "SketchFeature" in-network defense paper to be presented at **ISOC NDSS 2025**.
-* [Dec 2024] **Best Paper Award** at WISE 2024 for malware concept drift research.
-* [Aug 2024] Mehdi's first paper as lead author to be presented at **USENIX Security 2024**. 
-* [Aug 2023] Received **NSF travel grant** (PI) for IEEE CNS 2022.
-* [Apr 2023] Hospital website security paper accepted in **IEEE ICCCN 2023**.
-* [Feb 2023] In-network traffic measurement paper to be presented at **ISOC NDSS 2023**.
-* [Sep 2022] Transformer explainability paper accepted in **NeurIPS 2022**.
-* [Aug 2022] Received **NSF HCC grant** (Co-PI) for AI for social goods.
-* [Jul 2022] In-network ACL defense paper to appear at **ACM CCS 2022**.
-* [Jun 2022] Malware detection system analysis paper accepted in **RAID 2022**.
-* [May 2022] Free content website analysis paper to be presented at **ACM CySSS@AsiaCCS 2022**.
-* [Mar 2022] Flow spread estimation algorithm paper accepted in **IEEE DSN 2022**.
-* [Aug 2021] DNS resolver behavioral analysis paper accepted in **IEEE/ACM ToN**.
-* [Jul 2021] Robust malware detection paper accepted in **IEEE TDSC**.
-* [Feb 2021] Wearable computing paper accepted in **IEEE TMC**.
-* [Jan 2021] **Best Fast Abstract Award** for IoT malware defense at **IEEE DSN 2021**.
-* [Jul 2020] Two papers (Security/Privacy) accepted in **IEEE INFOCOM 2020**.
-* [Mar 2020] Malware adversarial learning paper accepted in **IEEE ICDCS 2020**.
- 
+  <li class="news-item">
+    <span class="news-date">Mar 2026</span>
+    <span class="news-text">Mehdi will join <strong><span style="color:#4285F4">G</span><span style="color:#EA4335">o</span><span style="color:#FBBC05">o</span><span style="color:#4285F4">g</span><span style="color:#34A853">l</span><span style="color:#EA4335">e</span></strong> for a summer internship!</span>
+  </li>
 
+  <li class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <span class="news-text">Low-and-slow threat detection paper accepted in <span class="news-venue">USENIX NSDI 2026</span>. Congrats to Mehdi!</span>
+  </li>
 
+  <li class="news-item">
+    <span class="news-date">Oct 2025</span>
+    <span class="news-text">Mehdi is selected as a <strong>Distinguished AE Reviewer</strong> for USENIX Security, congrats!</span>
+  </li>
 
+  <li class="news-item">
+    <span class="news-date">Sep 2025</span>
+    <span class="news-text">Malware concept drift paper to appear in <span class="news-venue">Computing</span>.</span>
+  </li>
+
+  <li class="news-item">
+    <span class="news-date">Apr 2025</span>
+    <span class="news-text">🏅 Mehdi received <strong>Michael Conrad Award ($1,000)</strong> for <span class="news-venue">USENIX Security 2024</span> paper, congrats!</span>
+  </li>
+
+  <li class="news-item">
+    <span class="news-date">Feb 2025</span>
+    <span class="news-text">"SketchFeature" in-network defense paper to be presented at <span class="news-venue">ISOC NDSS 2025</span>.</span>
+  </li>
+
+  <li class="news-item">
+    <span class="news-date">Dec 2024</span>
+    <span class="news-text">🏆 <strong>Best Paper Award</strong> at WISE 2024 for malware concept drift research.</span>
+  </li>
+
+  <li class="news-item">
+    <span class="news-date">Aug 2024</span>
+    <span class="news-text">Mehdi's first paper as lead author to be presented at <span class="news-venue">USENIX Security 2024</span>.</span>
+  </li>
+
+  <li class="news-item news-old">
+    <span class="news-date">Aug 2023</span>
+    <span class="news-text"><span class="news-badge grant">Grant</span> Received <strong>NSF travel grant</strong> (PI) for IEEE CNS 2022.</span>
+  </li>
+
+  <li class="news-item news-old">
+    <span class="news-date">Apr 2023</span>
+    <span class="news-text">Hospital website security paper accepted in <span class="news-venue">IEEE ICCCN 2023</span>.</span>
+  </li>
+
+  <li class="news-item news-old">
+    <span class="news-date">Feb 2023</span>
+    <span class="news-text">In-network traffic measurement paper to be presented at <span class="news-venue">ISOC NDSS 2023</span>.</span>
+  </li>
+
+  <li class="news-item news-old">
+    <span class="news-date">Sep 2022</span>
+    <span class="news-text">Transformer explainability paper accepted in <span class="news-venue">NeurIPS 2022</span>.</span>
+  </li>
+
+  <li class="news-item news-old">
+    <span class="news-date">Aug 2022</span>
+    <span class="news-text"><span class="news-badge grant">Grant</span> Received <strong>NSF HCC grant</strong> (Co-PI) for AI for social goods.</span>
+  </li>
+
+  <li class="news-item news-old">
+    <span class="news-date">Jul 2022</span>
+    <span class="news-text">In-network ACL defense paper to appear at <span class="news-venue">ACM CCS 2022</span>.</span>
+  </li>
+
+  <li class="news-item news-old">
+    <span class="news-date">Jun 2022</span>
+    <span class="news-text">Malware detection system analysis paper accepted in <span class="news-venue">RAID 2022</span>.</span>
+  </li>
+
+  <li class="news-item news-old">
+    <span class="news-date">Mar 2022</span>
+    <span class="news-text">Flow spread estimation algorithm paper accepted in <span class="news-venue">IEEE DSN 2022</span>.</span>
+  </li>
+
+  <li class="news-item news-old">
+    <span class="news-date">Aug 2021</span>
+    <span class="news-text">DNS resolver behavioral analysis paper accepted in <span class="news-venue">IEEE/ACM ToN</span>.</span>
+  </li>
+
+  <li class="news-item news-old">
+    <span class="news-date">Jan 2021</span>
+    <span class="news-text">🏆 <strong>Best Fast Abstract Award</strong> for IoT malware defense at <span class="news-venue">IEEE DSN 2021</span>.</span>
+  </li>
+
+  <li class="news-item news-old">
+    <span class="news-date">Jul 2020</span>
+    <span class="news-text">Two papers (Security/Privacy) accepted in <span class="news-venue">IEEE INFOCOM 2020</span>.</span>
+  </li>
+
+  <li class="news-item news-old">
+    <span class="news-date">Mar 2020</span>
+    <span class="news-text">Malware adversarial learning paper accepted in <span class="news-venue">IEEE ICDCS 2020</span>.</span>
+  </li>
+
+</ul>
+<div style="text-align:center;margin-top:6px;">
+  <button id="news-toggle" onclick="toggleNews()" style="background:none;border:1px solid #093f39;color:#093f39;font-size:0.72em;font-weight:600;padding:3px 14px;border-radius:3px;cursor:pointer;">Show more</button>
+</div>
+</div>
+
+<script>
+function toggleNews() {
+  var items = document.querySelectorAll('.news-old');
+  var btn = document.getElementById('news-toggle');
+  var hidden = items[0].style.display === 'none' || items[0].style.display === '';
+  items.forEach(function(el) { el.style.display = hidden ? 'flex' : 'none'; });
+  btn.textContent = hidden ? 'Show less' : 'Show more';
+}
+document.querySelectorAll('.news-old').forEach(function(el) { el.style.display = 'none'; });
+</script>

@@ -1,26 +1,22 @@
 # main links links
 main:
-  - title: "NIDS-Lab"
+  - title: "Index"
+    url: /
+
+  - title: "Research"
     url: /team/
 
   - title: "Service"
-    url: /terms/  
+    url: /services/
 
   - title: "Publications"
     url: /publications/
+
 
   - title: "Teaching"
     url: /teaching/   
   
 
     
-  #- title: "Research"
-  #  url: /research/
-        
-  #- title: "Blog Posts"
-   # url: /year-archive/
-    
-  #- title: "CV"
-    #url: /cv/
     
  

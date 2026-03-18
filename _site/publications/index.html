@@ -137,10 +137,16 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Rhongho Jang</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><span style="cursor:default;color:#ffffff;font-size:1em;font-weight:900;letter-spacing:0.04em;">Rhongho Jang</span></li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/team/">NIDS-Lab</a></li>
+            <li class="masthead__menu-item"><a href="http://localhost:4000/">Index</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/team/">Research</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/services/">Service</a></li>
           
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/publications/">Publications</a></li>
@@ -179,7 +185,7 @@
   <div class="author__content">
     <h3 class="author__name">Rhongho Jang</h3>
     
-    <p class="author__bio">Assistant Professor/Lab Director</p>
+    <p class="author__bio">Assistant Professor</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -187,35 +193,35 @@
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       
-        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>Detroit</li>
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" style="color:#e53935;" aria-hidden="true"></i>Detroit</li>
       
       
-        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>Wayne State University</li>
+        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" style="color:#093f39;" aria-hidden="true"></i>Wayne State University</li>
       
       
-        <li><a href="https://engineering.wayne.edu/profile/hf8512"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>Website</a></li>
+        <li><a href="https://engineering.wayne.edu/profile/hf8512"><i class="fas fa-fw fa-link icon-pad-right" style="color:#1565c0;" aria-hidden="true"></i>Website</a></li>
       
       
-        <li><a href="mailto:r.jang@wayne.edu"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email</a></li>
+        <li><a href="mailto:r.jang@wayne.edu"><i class="fas fa-fw fa-envelope icon-pad-right" style="color:#e65100;" aria-hidden="true"></i>Email</a></li>
       
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
-            
-      
-        <li><a href="https://scholar.google.co.kr/citations?user=h9Nfyf0AAAAJ&hl"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
       
       
+        <li><a href="https://scholar.google.co.kr/citations?user=h9Nfyf0AAAAJ&hl"><i class="ai ai-google-scholar icon-pad-right" style="color:#4285F4;"></i>Google Scholar</a></li>
       
       
-                              
+      
+      
+      
       
 
       <!-- Font Awesome icons / Repositories and software development -->
       
-            
-            
       
-        <li><a href="https://github.com/NIDS-LAB"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+      
+      
+        <li><a href="https://github.com/NIDS-LAB"><i class="fab fa-fw fa-github icon-pad-right" style="color:#333;" aria-hidden="true"></i>Github</a></li>
       
             
             
@@ -257,418 +263,368 @@
     
       <h1 class="page__title">Publications</h1>
     
+    <style>
+.pub-scholar-link { margin-bottom: 20px; font-size: 0.95em; }
+
+.pub-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-left: 3px solid #093f39;
+  border-radius: 4px;
+  padding: 7px 12px;
+  margin-bottom: 5px;
+  transition: box-shadow 0.2s;
+}
+.pub-card:hover {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.pub-title {
+  font-size: 0.88em;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 2px;
+  line-height: 1.4;
+}
+.pub-authors {
+  font-size: 0.78em;
+  color: #555;
+  margin-bottom: 3px;
+}
+.pub-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.pub-venue {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 3px;
+  font-size: 0.72em;
+  font-weight: 700;
+  color: #fff;
+  background: #607d8b;
+}
+.venue-ndss   { background: #1565c0 !important; }
+.venue-ccs    { background: #6a1b9a !important; }
+.venue-usenix { background: #00695c !important; }
+.venue-neurips{ background: #e65100 !important; }
+.venue-ieee   { background: #0277bd !important; }
+.venue-acm    { background: #558b2f !important; }
+
+.pub-year-badge { font-size: 0.78em; color: #888; }
+.pub-award {
+  display: inline-flex; align-items: center; gap: 4px;
+  background: #fff8e1; border: 1px solid #f9a825;
+  color: #e65100; border-radius: 10px;
+  font-size: 0.72em; font-weight: 700;
+  padding: 2px 9px;
+}
+</style>
+
+<div class="pub-scholar-link">
+
+  Find full citation list on <a href="https://scholar.google.co.kr/citations?user=h9Nfyf0AAAAJ&amp;hl" target="_blank"><strong>Google Scholar</strong></a>.
+
+</div>
+
+<div class="pub-card">
+  <div class="pub-title"><a href="https://www.usenix.org/conference/nsdi26/presentation/mirnajafizadeh" target="_blank" style="color:inherit;text-decoration:none;">Defeating Slow-and-Low Threats via Diffusion Model-Based Generative Inference</a></div>
+  <div class="pub-authors">S. M. M. Mirnajafizadeh, P. Khanduri, D. Nyang, R. Jang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-usenix">USENIX NSDI</span>
+    <span class="pub-year-badge">2026</span>
     
-<div class="wordwrap">You can also find my articles on <a href="https://scholar.google.co.kr/citations?user=h9Nfyf0AAAAJ&amp;hl">my Google Scholar profile</a>.</div>
-
-<ul>
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">Enhancing Network Attack Detection with Distributed and In-Network Data Collection System</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Authors: Mehdi Mirnajafizadeh, Ashwin Raam Sethuram, David Mohaisen, DaeHun Nyang, Rhongho Jang</p>
-      <p class="archive__item-excerpt">USENIX Security 2024</p>
-    </li>
-</article>
+    <a href="https://scholar.google.com/scholar?q=Defeating+Slow-and-Low+Threats+via+Diffusion+Model-Based+Generative+Inference" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">Untargeted Code Authorship Evasion with Seq2Seq Transformation</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Soohyeon Choi,  Rhongho Jang,  DaeHun Nyang,  David Mohaisen, </p>
-      <p class="archive__item-excerpt">Springer CSoNet 2023</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="https://doi.org/10.1007/s00607-025-01543-7" target="_blank" style="color:inherit;text-decoration:none;">One Step Forward, Two Steps Back: ML-Based Malware Detection Under Concept Drift</a></div>
+  <div class="pub-authors">A. Abusnaina, A. Anwar, M. Saad, A. Alabduljabbar, R. Jang, S. Salem, D. Mohaisen</div>
+  <div class="pub-meta">
+    <span class="pub-venue ">Computing</span>
+    <span class="pub-year-badge">2025</span>
+    
+    <a href="https://scholar.google.com/scholar?q=One+Step+Forward%2C+Two+Steps+Back%3A+ML-Based+Malware+Detection+Under+Concept+Drift" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">Understanding the Security and Performance of the Web Presence of Hospitals: A Measurement Study</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Mohammed Alkinoon,  Abdulrahman Alabduljabbar,  Hattan Althebeiti,  Rhongho Jang,  DaeHun Nyang,  David Mohaisen, </p>
-      <p class="archive__item-excerpt">IEEE ICCCN 2023</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="https://www.ndss-symposium.org/ndss-paper/sketchfeature-high-quality-per-flow-feature-extractor-towards-security-aware-data-plane/" target="_blank" style="color:inherit;text-decoration:none;">SketchFeature: High-Quality Per-Flow Feature Extractor Towards Security-Aware Data Plane</a></div>
+  <div class="pub-authors">S. Kim, S. M. M. Mirnajafizadeh, B. Kim, R. Jang, D. Nyang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ndss">ISOC NDSS</span>
+    <span class="pub-year-badge">2025</span>
+    
+    <a href="https://scholar.google.com/scholar?q=SketchFeature%3A+High-Quality+Per-Flow+Feature+Extractor+Towards+Security-Aware+Data+Plane" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">A Robust Counting Sketch for Data Plane Intrusion Detection</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Sian Kim,  Changhun Jung,  RhongHo Jang,  David Mohaisen,  DaeHun Nyang, </p>
-      <p class="archive__item-excerpt">ISOC NDSS 2023</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2024-12-02-CD.md" style="color:inherit;text-decoration:none;">Exposing the Limitations of Machine Learning for Malware Detection Under Concept Drift</a></div>
+  <div class="pub-authors">A. Abusnaina, A. Anwar, M. Saad, A. Alabduljabbar, R. Jang, S. Salem, D. Mohaisen</div>
+  <div class="pub-meta">
+    <span class="pub-venue ">Springer WISE</span>
+    <span class="pub-year-badge">2024</span>
+    <span class="pub-award">🏆 Best Paper Award</span>
+    <a href="https://scholar.google.com/scholar?q=Exposing+the+Limitations+of+Machine+Learning+for+Malware+Detection+Under+Concept+Drift" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">Understanding the Security of Free Content Websites by Analyzing their SSL Certificates: A Comparative Study</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Abdulrahman Alabduljabbar,  Runyu Ma,  Soohyeon Choi,  Rhongho Jang,  Songqing Chen,  David Mohaisen, </p>
-      <p class="archive__item-excerpt">ACM CySSS@AsiaCCS 2022</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="https://www.usenix.org/conference/usenixsecurity24/presentation/mirnajafizadeh" target="_blank" style="color:inherit;text-decoration:none;">Enhancing Network Attack Detection with Distributed and In-Network Data Collection System</a></div>
+  <div class="pub-authors">S. M. M. Mirnajafizadeh, A. R. Sethuram, D. Mohaisen, D. Nyang, R. Jang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-usenix">USENIX Security</span>
+    <span class="pub-year-badge">2024</span>
+    
+    <a href="https://scholar.google.com/scholar?q=Enhancing+Network+Attack+Detection+with+Distributed+and+In-Network+Data+Collection+System" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">Systematically Evaluating the Robustness of ML-based IoT Malware Detection Systems</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Ahmed Abusnaina,  Afsah Anwar,  Sultan Alshamrani,  Abdulrahman Alabduljabbar,  RhongHo Jang,  DaeHun Nyang,  David Mohaisen, </p>
-      <p class="archive__item-excerpt">ACM RAID 2022</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="https://www.ndss-symposium.org/ndss-paper/a-robust-counting-sketch-for-data-plane-intrusion-detection/" target="_blank" style="color:inherit;text-decoration:none;">A Robust Counting Sketch for Data Plane Intrusion Detection</a></div>
+  <div class="pub-authors">S. Kim, C. Jung, R. Jang, D. Mohaisen, D. Nyang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ndss">ISOC NDSS</span>
+    <span class="pub-year-badge">2023</span>
+    
+    <a href="https://scholar.google.com/scholar?q=A+Robust+Counting+Sketch+for+Data+Plane+Intrusion+Detection" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">Minimizing Noise in HyperLogLog-Based Spread Estimation of Multiple Flows</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Dinhnguyen Dao,  Rhongho Jang,  Changhun Jung,  David Mohaisen,  DaeHun Nyang, </p>
-      <p class="archive__item-excerpt">IEEE DSN 2022</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2023-01-01-Untargeted-Code-Authorship-Evasion-with-Seq2Seq-Transformation" style="color:inherit;text-decoration:none;">Untargeted Code Authorship Evasion with Seq2Seq Transformation</a></div>
+  <div class="pub-authors">S. Choi, R. Jang, D. Nyang, D. Mohaisen</div>
+  <div class="pub-meta">
+    <span class="pub-venue ">Springer CSoNet</span>
+    <span class="pub-year-badge">2023</span>
+    
+    <a href="https://scholar.google.com/scholar?q=Untargeted+Code+Authorship+Evasion+with+Seq2Seq+Transformation" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">DL-FHMC: Deep Learning-Based Fine-Grained Hierarchical Learning Approach for Robust Malware Classification</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Ahmed Abusnaina,  Mohammed Abuhamad,  Hisham Alasmary,  Afsah Anwar,  Rhongho Jang,  Saeed Salem,  DaeHun Nyang,  David Mohaisen, </p>
-      <p class="archive__item-excerpt">IEEE Trans. Dependable Secur. Comput. 2022</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2023-01-01-Understanding-the-Security-and-Performance-of-the-Web-Presence-of-Hospitals-A-Measurement-Study" style="color:inherit;text-decoration:none;">Understanding the Security and Performance of the Web Presence of Hospitals: A Measurement Study</a></div>
+  <div class="pub-authors">M. Alkinoon, A. Alabduljabbar, H. Althebeiti, R. Jang, D. Nyang, D. Mohaisen</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ieee">IEEE ICCCN</span>
+    <span class="pub-year-badge">2023</span>
+    
+    <a href="https://scholar.google.com/scholar?q=Understanding+the+Security+and+Performance+of+the+Web+Presence+of+Hospitals%3A+A+Measurement+Study" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">AttCAT: Explaining Transformers via Attentive Class Activation Tokens</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Yao Qiang,  Deng Pan,  Chengyin Li,  Xin Li,  Rhongho Jang,  Dongxiao Zhu, </p>
-      <p class="archive__item-excerpt">NeurIPS 2022</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2022-01-01-Understanding-the-Security-of-Free-Content-Websites-by-Analyzing-their-SSL-Certificates-A-Comparative-Study" style="color:inherit;text-decoration:none;">Understanding the Security of Free Content Websites by Analyzing Their SSL Certificates: A Comparative Study</a></div>
+  <div class="pub-authors">A. Alabduljabbar, R. Ma, S. Choi, R. Jang, S. Chen, D. Mohaisen</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ccs">ACM CySSS@AsiaCCS</span>
+    <span class="pub-year-badge">2022</span>
+    
+    <a href="https://scholar.google.com/scholar?q=Understanding+the+Security+of+Free+Content+Websites+by+Analyzing+Their+SSL+Certificates%3A+A+Comparative+Study" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">A Scalable and Dynamic ACL System for In-Network Defense</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Changhun Jung,  Sian Kim,  Rhongho Jang,  David Mohaisen,  DaeHun Nyang, </p>
-      <p class="archive__item-excerpt">ACM CCS 2022</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2022-01-01-Systematically-Evaluating-the-Robustness-of-ML-based-IoT-Malware-Detection-Systems" style="color:inherit;text-decoration:none;">Systematically Evaluating the Robustness of ML-Based IoT Malware Detection Systems</a></div>
+  <div class="pub-authors">A. Abusnaina, A. Anwar, S. Alshamrani, A. Alabduljabbar, R. Jang, D. Nyang, D. Mohaisen</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-acm">ACM RAID</span>
+    <span class="pub-year-badge">2022</span>
+    
+    <a href="https://scholar.google.com/scholar?q=Systematically+Evaluating+the+Robustness+of+ML-Based+IoT+Malware+Detection+Systems" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">A One-Page Text Entry Method Optimized for Rectangle Smartwatches</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Rhongho Jang,  Changhun Jung,  David Mohaisen,  KyungHee Lee,  DaeHun Nyang, </p>
-      <p class="archive__item-excerpt">IEEE Trans. Mob. Comput. 2022</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2022-01-01-Minimizing-Noise-in-HyperLogLog-Based-Spread-Estimation-of-Multiple-Flows" style="color:inherit;text-decoration:none;">Minimizing Noise in HyperLogLog-Based Spread Estimation of Multiple Flows</a></div>
+  <div class="pub-authors">D. Dao, R. Jang, C. Jung, D. Mohaisen, D. Nyang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ieee">IEEE DSN</span>
+    <span class="pub-year-badge">2022</span>
+    
+    <a href="https://scholar.google.com/scholar?q=Minimizing+Noise+in+HyperLogLog-Based+Spread+Estimation+of+Multiple+Flows" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">A Large-Scale Behavioral Analysis of the Open DNS Resolvers on the Internet</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Jeman Park,  Rhongho Jang,  Manar Mohaisen,  David Mohaisen, </p>
-      <p class="archive__item-excerpt">IEEE/ACM Trans. Netw. 2022</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2022-01-01-DL-FHMC-Deep-Learning-Based-Fine-Grained-Hierarchical-Learning-Approach-for-Robust-Malware-Classification" style="color:inherit;text-decoration:none;">DL-FHMC: Deep Learning-Based Fine-Grained Hierarchical Learning Approach for Robust Malware Classification</a></div>
+  <div class="pub-authors">A. Abusnaina, M. Abuhamad, H. Alasmary, A. Anwar, R. Jang, S. Salem, D. Nyang, D. Mohaisen</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ieee">IEEE Transactions on Dependable and Secure Computing</span>
+    <span class="pub-year-badge">2022</span>
+    
+    <a href="https://scholar.google.com/scholar?q=DL-FHMC%3A+Deep+Learning-Based+Fine-Grained+Hierarchical+Learning+Approach+for+Robust+Malware+Classification" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">Systemically Evaluating the Robustness of ML-based IoT Malware Detectors</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Ahmed Abusnaina,  Afsah Anwar,  Sultan Alshamrani,  Abdulrahman Alabduljabbar,  Rhongho Jang,  DaeHun Nyang,  David Mohaisen, </p>
-      <p class="archive__item-excerpt">IEEE DSN (Supplements) 2021</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2022-01-01-AttCAT-Explaining-Transformers-via-Attentive-Class-Activation-Tokens" style="color:inherit;text-decoration:none;">AttCAT: Explaining Transformers via Attentive Class Activation Tokens</a></div>
+  <div class="pub-authors">Y. Qiang, D. Pan, C. Li, X. Li, R. Jang, D. Zhu</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-neurips">NeurIPS</span>
+    <span class="pub-year-badge">2022</span>
+    
+    <a href="https://scholar.google.com/scholar?q=AttCAT%3A+Explaining+Transformers+via+Attentive+Class+Activation+Tokens" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">A network-independent tool-based usable authentication system for Internet of Things devices</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Changhun Jung,  Jinchun Choi,  Rhongho Jang,  David Mohaisen,  DaeHun Nyang, </p>
-      <p class="archive__item-excerpt">Comput. Secur. 2021</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2022-01-01-A-One-Page-Text-Entry-Method-Optimized-for-Rectangle-Smartwatches" style="color:inherit;text-decoration:none;">A One-Page Text Entry Method Optimized for Rectangle Smartwatches</a></div>
+  <div class="pub-authors">R. Jang, C. Jung, D. Mohaisen, K. Lee, D. Nyang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ieee">IEEE Transactions on Mobile Computing</span>
+    <span class="pub-year-badge">2022</span>
+    
+    <a href="https://scholar.google.com/scholar?q=A+One-Page+Text+Entry+Method+Optimized+for+Rectangle+Smartwatches" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">Soteria: Detecting Adversarial Examples in Control Flow Graph-based Malware Classifiers</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Hisham Alasmary,  Ahmed Abusnaina,  Rhongho Jang,  Mohammed Abuhamad,  Afsah Anwar,  DaeHun Nyang,  David Mohaisen, </p>
-      <p class="archive__item-excerpt">IEEE ICDCS 2020</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2022-01-01-A-Large-Scale-Behavioral-Analysis-of-the-Open-DNS-Resolvers-on-the-Internet" style="color:inherit;text-decoration:none;">A Large-Scale Behavioral Analysis of the Open DNS Resolvers on the Internet</a></div>
+  <div class="pub-authors">J. Park, R. Jang, M. Mohaisen, D. Mohaisen</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ieee">IEEE/ACM Transactions on Networking</span>
+    <span class="pub-year-badge">2022</span>
+    
+    <a href="https://scholar.google.com/scholar?q=A+Large-Scale+Behavioral+Analysis+of+the+Open+DNS+Resolvers+on+the+Internet" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">SketchFlow: Per-Flow Systematic Sampling Using Sketch Saturation Event</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Rhongho Jang,  DaeHong Min,  Seongkwang Moon,  David Mohaisen,  DaeHun Nyang, </p>
-      <p class="archive__item-excerpt">IEEE INFOCOM 2020</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3548606.3560606" target="_blank" style="color:inherit;text-decoration:none;">A Scalable and Dynamic ACL System for In-Network Defense</a></div>
+  <div class="pub-authors">C. Jung, S. Kim, R. Jang, D. Mohaisen, D. Nyang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ccs">ACM CCS</span>
+    <span class="pub-year-badge">2022</span>
+    
+    <a href="https://scholar.google.com/scholar?q=A+Scalable+and+Dynamic+ACL+System+for+In-Network+Defense" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">DFD: Adversarial Learning-based Approach to Defend Against Website Fingerprinting</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Ahmed Abusnaina,  Rhongho Jang,  Aminollah Khormali,  DaeHun Nyang,  David Mohaisen, </p>
-      <p class="archive__item-excerpt">IEEE INFOCOM 2020</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2021-01-01-A-network-independent-tool-based-usable-authentication-system-for-Internet-of-Things-devices" style="color:inherit;text-decoration:none;">A Network-Independent Tool-Based Usable Authentication System for Internet of Things Devices</a></div>
+  <div class="pub-authors">C. Jung, J. Choi, R. Jang, D. Mohaisen, D. Nyang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-usenix">Computers &amp; Security</span>
+    <span class="pub-year-badge">2021</span>
+    
+    <a href="https://scholar.google.com/scholar?q=A+Network-Independent+Tool-Based+Usable+Authentication+System+for+Internet+of+Things+Devices" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">Catch Me If You Can: Rogue Access Point Detection Using Intentional Channel Interference</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Rhongho Jang,  Jeonil Kang,  Aziz Mohaisen,  DaeHun Nyang, </p>
-      <p class="archive__item-excerpt">IEEE Trans. Mob. Comput. 2020</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2020-01-01-Soteria-Detecting-Adversarial-Examples-in-Control-Flow-Graph-based-Malware-Classifiers" style="color:inherit;text-decoration:none;">Soteria: Detecting Adversarial Examples in Control Flow Graph-Based Malware Classifiers</a></div>
+  <div class="pub-authors">H. Alasmary, A. Abusnaina, R. Jang, M. Abuhamad, A. Anwar, D. Nyang, D. Mohaisen</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ieee">IEEE ICDCS</span>
+    <span class="pub-year-badge">2020</span>
+    
+    <a href="https://scholar.google.com/scholar?q=Soteria%3A+Detecting+Adversarial+Examples+in+Control+Flow+Graph-Based+Malware+Classifiers" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">InstaMeasure: Instant Per-flow Detection Using Large In-DRAM Working Set of Active Flows</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Rhongho Jang,  Seongkwang Moon,  Youngtae Noh,  Aziz Mohaisen,  DaeHun Nyang, </p>
-      <p class="archive__item-excerpt">IEEE ICDCS 2019</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2020-01-01-SketchFlow-Per-Flow-Systematic-Sampling-Using-Sketch-Saturation-Event" style="color:inherit;text-decoration:none;">SketchFlow: Per-Flow Systematic Sampling Using Sketch Saturation Event</a></div>
+  <div class="pub-authors">R. Jang, D. Min, S. Moon, D. Mohaisen, D. Nyang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ieee">IEEE INFOCOM</span>
+    <span class="pub-year-badge">2020</span>
+    
+    <a href="https://scholar.google.com/scholar?q=SketchFlow%3A+Per-Flow+Systematic+Sampling+Using+Sketch+Saturation+Event" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">A cost-effective anomaly detection system using in-DRAM working set of active flows table: poster</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> Rhongho Jang,  Seongkwang Moon,  Youngtae Noh,  Aziz Mohaisen,  DaeHun Nyang, </p>
-      <p class="archive__item-excerpt">ACM WiSec 2019</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2020-01-01-DFD-Adversarial-Learning-based-Approach-to-Defend-Against-Website-Fingerprinting" style="color:inherit;text-decoration:none;">DFD: Adversarial Learning-Based Approach to Defend Against Website Fingerprinting</a></div>
+  <div class="pub-authors">A. Abusnaina, R. Jang, A. Khormali, D. Nyang, D. Mohaisen</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ieee">IEEE INFOCOM</span>
+    <span class="pub-year-badge">2020</span>
+    
+    <a href="https://scholar.google.com/scholar?q=DFD%3A+Adversarial+Learning-Based+Approach+to+Defend+Against+Website+Fingerprinting" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">Two-level network monitoring and management in WLAN using software-defined networking: poster</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> RhongHo Jang,  DongGyu Cho,  Aziz Mohaisen,  Youngtae Noh,  DaeHun Nyang, </p>
-      <p class="archive__item-excerpt">ACM WISEC 2017</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2020-01-01-Catch-Me-If-You-Can-Rogue-Access-Point-Detection-Using-Intentional-Channel-Interference" style="color:inherit;text-decoration:none;">Catch Me If You Can: Rogue Access Point Detection Using Intentional Channel Interference</a></div>
+  <div class="pub-authors">R. Jang, J. Kang, A. Mohaisen, D. Nyang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ieee">IEEE Transactions on Mobile Computing</span>
+    <span class="pub-year-badge">2020</span>
+    
+    <a href="https://scholar.google.com/scholar?q=Catch+Me+If+You+Can%3A+Rogue+Access+Point+Detection+Using+Intentional+Channel+Interference" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">Rogue Access Point Detector Using Characteristics of Channel Overlapping in 802.11n</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> RhongHo Jang,  Jeonil Kang,  Aziz Mohaisen,  DaeHun Nyang</p>
-      <p class="archive__item-excerpt">IEEE ICDCS 2017</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2019-01-01-A-cost-effective-anomaly-detection-system-using-in-DRAM-working-set-of-active-flows-table-poster" style="color:inherit;text-decoration:none;">A Cost-Effective Anomaly Detection System Using In-DRAM Working Set of Active Flows Table: Poster</a></div>
+  <div class="pub-authors">R. Jang, S. Moon, Y. Noh, A. Mohaisen, D. Nyang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-acm">ACM WiSec</span>
+    <span class="pub-year-badge">2019</span>
+    
+    <a href="https://scholar.google.com/scholar?q=A+Cost-Effective+Anomaly+Detection+System+Using+In-DRAM+Working+Set+of+Active+Flows+Table%3A+Poster" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">RFlow+: An SDN-based WLAN monitoring and management framework</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> RhongHo Jang,  DongGyu Cho,  Youngtae Noh,  DaeHun Nyang</p>
-      <p class="archive__item-excerpt">IEEE INFOCOM 2017</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2019-01-01-InstaMeasure-Instant-Per-flow-Detection-Using-Large-In-DRAM-Working-Set-of-Active-Flows" style="color:inherit;text-decoration:none;">InstaMeasure: Instant Per-Flow Detection Using Large In-DRAM Working Set of Active Flows</a></div>
+  <div class="pub-authors">R. Jang, S. Moon, Y. Noh, A. Mohaisen, D. Nyang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ieee">IEEE ICDCS</span>
+    <span class="pub-year-badge">2019</span>
+    
+    <a href="https://scholar.google.com/scholar?q=InstaMeasure%3A+Instant+Per-Flow+Detection+Using+Large+In-DRAM+Working+Set+of+Active+Flows" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-
-  
-
-
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope="" itemtype="http://schema.org/CreativeWork">
-    <li>
-      <h4 class="archive__item-title" itemprop="headline">Highly-accurate rogue access point detection using intentional channel interference: poster</h4> 
-      <p class="archive__item-excerpt" itemprop="description"> RhongHo Jang,  Jeonil Kang,  Aziz Mohaisen,  DaeHun Nyang, </p>
-      <p class="archive__item-excerpt">ACM WISEC 2017</p>
-    </li>
-</article>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2017-01-01-Two-level-network-monitoring-and-management-in-WLAN-using-software-defined-networking-poster" style="color:inherit;text-decoration:none;">Two-Level Network Monitoring and Management in WLAN Using Software-Defined Networking: Poster</a></div>
+  <div class="pub-authors">R. Jang, D. Cho, A. Mohaisen, Y. Noh, D. Nyang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-acm">ACM WiSec</span>
+    <span class="pub-year-badge">2017</span>
+    
+    <a href="https://scholar.google.com/scholar?q=Two-Level+Network+Monitoring+and+Management+in+WLAN+Using+Software-Defined+Networking%3A+Poster" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
 </div>
 
-</ul>
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2017-01-01-Highly-accurate-rogue-access-point-detection-using-intentional-channel-interference-poster" style="color:inherit;text-decoration:none;">Highly-Accurate Rogue Access Point Detection Using Intentional Channel Interference: Poster</a></div>
+  <div class="pub-authors">R. Jang, J. Kang, A. Mohaisen, D. Nyang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-acm">ACM WiSec</span>
+    <span class="pub-year-badge">2017</span>
+    
+    <a href="https://scholar.google.com/scholar?q=Highly-Accurate+Rogue+Access+Point+Detection+Using+Intentional+Channel+Interference%3A+Poster" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2017-01-01-RFlowmbox-An-SDN-based-WLAN-monitoring-and-management-framework" style="color:inherit;text-decoration:none;">RFlow+: An SDN-Based WLAN Monitoring and Management Framework</a></div>
+  <div class="pub-authors">R. Jang, D. Cho, Y. Noh, D. Nyang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ieee">IEEE INFOCOM</span>
+    <span class="pub-year-badge">2017</span>
+    
+    <a href="https://scholar.google.com/scholar?q=RFlow%2B%3A+An+SDN-Based+WLAN+Monitoring+and+Management+Framework" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-title"><a href="/publication/2017-01-01-Rogue-Access-Point-Detector-Using-Characteristics-of-Channel-Overlapping-in-80211n" style="color:inherit;text-decoration:none;">Rogue Access Point Detector Using Characteristics of Channel Overlapping in 802.11n</a></div>
+  <div class="pub-authors">R. Jang, J. Kang, A. Mohaisen, D. Nyang</div>
+  <div class="pub-meta">
+    <span class="pub-venue venue-ieee">IEEE ICDCS</span>
+    <span class="pub-year-badge">2017</span>
+    
+    <a href="https://scholar.google.com/scholar?q=Rogue+Access+Point+Detector+Using+Characteristics+of+Channel+Overlapping+in+802.11n" target="_blank" style="font-size:0.78em;color:#2a7ae2;text-decoration:none;">Cite ↗</a>
+  </div>
+</div>
+
 
   </div>
 </div>
@@ -677,29 +633,12 @@
     <div class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
 <!-- end custom footer snippets -->
 
         
 
 
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    
-      <li><strong>Follow:</strong></li>
-    
-    
-      <li><a href="http://github.com/NIDS-LAB"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    
-    
-    
-    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
-    
-  </ul>
-</div>
-
-
-<div class="page__footer-copyright">&copy; 2024 Rhongho Jang. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2026 Rhongho Jang. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>. Built with <a href="https://claude.ai/code" rel="nofollow">Claude Code</a>.</div>
 
       </footer>
     </div>
