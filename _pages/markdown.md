@@ -304,7 +304,7 @@ redirect_from:
   <!-- Probabilistic Sketch Algorithms -->
   <div class="research-card rc-sketch">
     <div class="research-figure">
-      <img src="/files/Research 1.png" alt="Probabilistic Sketch Algorithms" style="">
+      <img src="/files/Area 1.png" alt="Probabilistic Sketch Algorithms" style="">
     </div>
     <div class="research-body">
       <div class="research-title">Probabilistic (Sketch) Algorithms</div>
@@ -322,7 +322,7 @@ redirect_from:
   <!-- Emerging Infrastructure -->
   <div class="research-card rc-inc">
     <div class="research-figure">
-      <img src="/files/Research 2.png" alt="Emerging Infrastructure" style="">
+      <img src="/files/Area 2.png" alt="Emerging Infrastructure" style="">
     </div>
     <div class="research-body">
       <div class="research-title">Emerging Infrastructure</div>
