@@ -55,8 +55,8 @@ redirect_from:
 /* ── Member cards ────────────────────────────────── */
 .member-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 16px;
   margin-bottom: 16px;
 }
 .member-card {
@@ -106,31 +106,48 @@ redirect_from:
   border-radius: 10px;
   overflow: hidden;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   transition: box-shadow 0.2s, transform 0.2s;
+}
+@media (min-width: 600px) {
+  .research-card { flex-direction: row; }
 }
 .research-card:hover {
   box-shadow: 0 6px 22px rgba(0,0,0,0.11);
   transform: translateY(-3px);
 }
 .research-figure {
-  width: 280px;
-  min-width: 280px;
+  width: 100%;
+  min-width: unset;
+  max-height: 200px;
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
   background: #fff;
   overflow: hidden;
 }
+@media (min-width: 600px) {
+  .research-figure {
+    width: 280px;
+    min-width: 280px;
+    max-height: unset;
+  }
+}
 .research-figure img {
-  width: 280px;
-  height: 100%;
+  width: 100%;
+  height: 200px;
   object-fit: contain;
   object-position: center;
   display: block;
 }
+@media (min-width: 600px) {
+  .research-figure img {
+    width: 280px;
+    height: 100%;
+  }
+}
 .research-figure svg { width: 100%; height: 100%; }
-.research-body { padding: 18px 20px 16px; flex: 1; }
+.research-body { padding: 16px; flex: 1; }
 .research-title {
   font-size: 1em; font-weight: 700;
   color: #1a1a1a; margin-bottom: 8px;
@@ -195,14 +212,13 @@ redirect_from:
 </div>
 
 <!-- Sponsors -->
-<div style="display:flex;align-items:center;gap:28px;margin-bottom:28px;padding:16px 24px;background:#fff;border:1px solid #e8e8e8;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,0.05);">
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:20px;margin-bottom:28px;padding:14px 20px;background:#fff;border:1px solid #e8e8e8;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,0.05);">
   <span style="font-size:0.68em;color:#aaa;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;white-space:nowrap;">Supported by</span>
-  <div style="width:1px;height:40px;background:#e0e0e0;"></div>
   <a href="https://www.nsf.gov" target="_blank" style="opacity:0.85;transition:opacity 0.2s;text-decoration:none;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.85">
-    <img src="/files/NSF_Official_logo_High_Res_1200ppi.png" alt="NSF" style="height:80px;width:80px;object-fit:contain;display:block;">
+    <img src="/files/NSF_Official_logo_High_Res_1200ppi.png" alt="NSF" style="height:60px;width:60px;object-fit:contain;display:block;">
   </a>
   <a href="https://engineering.wayne.edu/computer-science" target="_blank" style="opacity:0.85;transition:opacity 0.2s;text-decoration:none;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.85">
-    <img src="/files/computer_science_anderson_horz_561.jpg" alt="WSU CS" style="height:80px;object-fit:contain;display:block;">
+    <img src="/files/computer_science_anderson_horz_561.jpg" alt="WSU CS" style="height:60px;object-fit:contain;display:block;">
   </a>
 </div>
 
