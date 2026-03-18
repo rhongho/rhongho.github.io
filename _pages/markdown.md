@@ -206,36 +206,6 @@ redirect_from:
   </a>
 </div>
 
-<!-- ── Current Members ────────────────────── -->
-<div class="nids-section">
-<div class="nids-section-title">Current Members</div>
-<div class="member-grid">
-
-  <div class="member-card">
-    <div class="member-avatar" style="background: linear-gradient(135deg,#1565c0,#42a5f5);">SM</div>
-    <div class="member-name">Seyed Mohammad Mehdi Mirnajafizadeh</div>
-    <div class="member-role">Ph.D. Student</div>
-    <div class="member-year">Joined 2022</div>
-  </div>
-
-  <div class="member-card">
-    <div class="member-avatar" style="background: linear-gradient(135deg,#6a1b9a,#ab47bc);">FK</div>
-    <div class="member-name">Fatima Kamal Khaja</div>
-    <div class="member-role">Ph.D. Student</div>
-    <div class="member-year">Joined 2024</div>
-  </div>
-
-</div>
-</div>
-
-<!-- ── Alumni ─────────────────────────────── -->
-<div class="nids-section">
-<div class="nids-section-title">Alumni</div>
-<ul class="alumni-list">
-  <li>Ashwin Raam Sethuram (2024) &nbsp;<span class="alumni-arrow">→</span>&nbsp; WSU, Industrial Engineering, Ph.D. Program</li>
-</ul>
-</div>
-
 <!-- ── Research Areas ─────────────────────── -->
 <div class="nids-section">
 <div class="nids-section-title">Research Areas</div>
@@ -354,5 +324,35 @@ redirect_from:
   </div>
 
 </div>
+</div>
+
+<!-- ── Current Members ────────────────────── -->
+<div class="nids-section">
+<div class="nids-section-title">Current Members</div>
+<div class="member-grid">
+
+  <div class="member-card">
+    <div class="member-avatar" style="background: linear-gradient(135deg,#1565c0,#42a5f5);">SM</div>
+    <div class="member-name">Seyed Mohammad Mehdi Mirnajafizadeh</div>
+    <div class="member-role">Ph.D. Student</div>
+    <div class="member-year">Joined 2022</div>
+  </div>
+
+  <div class="member-card">
+    <div class="member-avatar" style="background: linear-gradient(135deg,#6a1b9a,#ab47bc);">FK</div>
+    <div class="member-name">Fatima Kamal Khaja</div>
+    <div class="member-role">Ph.D. Student</div>
+    <div class="member-year">Joined 2024</div>
+  </div>
+
+</div>
+</div>
+
+<!-- ── Alumni ─────────────────────────────── -->
+<div class="nids-section">
+<div class="nids-section-title">Alumni</div>
+<ul class="alumni-list">
+  <li>Ashwin Raam Sethuram (2024) &nbsp;<span class="alumni-arrow">→</span>&nbsp; WSU, Industrial Engineering, Ph.D. Program</li>
+</ul>
 </div>
 
