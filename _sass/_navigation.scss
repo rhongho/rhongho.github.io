@@ -195,9 +195,10 @@
 
   button {
     position: absolute;
-    height: 2.5rem;
+    height: $masthead-height;
+    top: 0;
     right: 0;
-    padding: 0 0.5rem;
+    padding: 0 0.75rem;
     border: 0;
     outline: none;
     background-color: $primary-color;
