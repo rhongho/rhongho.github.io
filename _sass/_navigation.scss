@@ -209,10 +209,10 @@
     color: #7A3B00;
     cursor: pointer;
     z-index: 100;
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: 900;
-    font-family: Arial, sans-serif;
-    text-shadow: 1px 1px 0 #C47F00;
+    font-family: 'Press Start 2P', monospace;
+    text-shadow: 2px 2px 0 #C47F00, -1px -1px 0 #FFE566;
     transition: background-color 0.1s;
 
     &:hover {
