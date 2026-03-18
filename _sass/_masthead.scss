@@ -46,6 +46,14 @@
   }
 }
 
+.nav-label-mobile { display: none; }
+.nav-label-desktop { display: inline; }
+
+@media (max-width: #{$medium - 1}) {
+  .nav-label-mobile  { display: inline; }
+  .nav-label-desktop { display: none; }
+}
+
 .masthead__menu-item {
   display: block;
   list-style-type: none;

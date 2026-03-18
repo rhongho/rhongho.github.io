@@ -4,6 +4,7 @@ main:
     url: /
 
   - title: "Research"
+    mobile_title: "NIDS"
     url: /team/
 
   - title: "Publication"
