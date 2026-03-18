@@ -170,6 +170,52 @@ redirect_from:
 .rc-malware .pub-tag { background: #c0392b; }
 .rc-ai    .pub-tag { background: #e65100; }
 
+/* ── Sponsor bar ─────────────────────────────────── */
+.sponsor-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 28px;
+  padding: 14px 20px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+.sponsor-bar .sponsor-label {
+  font-size: 0.68em;
+  color: #aaa;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.sponsor-bar a {
+  opacity: 0.85;
+  transition: opacity 0.2s;
+  text-decoration: none;
+}
+.sponsor-bar a:hover { opacity: 1; }
+.sponsor-bar img {
+  height: 60px;
+  object-fit: contain;
+  display: block;
+}
+@media (max-width: 599px) {
+  .sponsor-bar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+    padding: 16px;
+  }
+  .sponsor-bar img {
+    height: 50px;
+    max-width: 100%;
+  }
+}
+
 /* ── Student pub highlight ───────────────────────── */
 .spotlight-grid {
   display: grid;
@@ -210,13 +256,13 @@ redirect_from:
 </div>
 
 <!-- Sponsors -->
-<div style="display:flex;flex-wrap:wrap;align-items:center;gap:20px;margin-bottom:28px;padding:14px 20px;background:#fff;border:1px solid #e8e8e8;border-radius:6px;box-shadow:0 1px 4px rgba(0,0,0,0.05);">
-  <span style="font-size:0.68em;color:#aaa;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;white-space:nowrap;">Supported by</span>
-  <a href="https://www.nsf.gov" target="_blank" style="opacity:0.85;transition:opacity 0.2s;text-decoration:none;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.85">
-    <img src="/files/NSF_Official_logo_High_Res_1200ppi.png" alt="NSF" style="height:60px;width:60px;object-fit:contain;display:block;">
+<div class="sponsor-bar">
+  <span class="sponsor-label">Supported by</span>
+  <a href="https://www.nsf.gov" target="_blank">
+    <img src="/files/NSF_Official_logo_High_Res_1200ppi.png" alt="NSF" style="width:60px;">
   </a>
-  <a href="https://engineering.wayne.edu/computer-science" target="_blank" style="opacity:0.85;transition:opacity 0.2s;text-decoration:none;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.85">
-    <img src="/files/computer_science_anderson_horz_561.jpg" alt="WSU CS" style="height:60px;object-fit:contain;display:block;">
+  <a href="https://engineering.wayne.edu/computer-science" target="_blank">
+    <img src="/files/computer_science_anderson_horz_561.jpg" alt="WSU CS">
   </a>
 </div>
 
