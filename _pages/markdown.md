@@ -236,6 +236,9 @@ redirect_from:
     display: block;
     text-align: left;
   }
+  .sponsor-item:last-child {
+    padding-left: 72px;
+  }
 }
 
 /* ── Student pub highlight ───────────────────────── */
