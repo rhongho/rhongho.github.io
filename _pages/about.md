@@ -203,7 +203,7 @@ redirect_from:
 }
 .sponsor-name {
   display: none;
-  font-size: 0.88em;
+  font-size: 1.05em;
   color: #111;
   font-weight: 700;
   line-height: 1.2;
@@ -212,8 +212,8 @@ redirect_from:
 @media (max-width: 599px) {
   .sponsor-bar {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
     gap: 14px;
     padding: 16px;
   }
