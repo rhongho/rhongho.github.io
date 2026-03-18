@@ -202,6 +202,19 @@ redirect_from:
   object-fit: contain;
   display: block;
 }
+.sponsor-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sponsor-name {
+  display: none;
+  font-size: 0.72em;
+  color: #555;
+  font-weight: 600;
+  line-height: 1.3;
+  max-width: 120px;
+}
 @media (max-width: 599px) {
   .sponsor-bar {
     flex-direction: column;
@@ -213,6 +226,15 @@ redirect_from:
   .sponsor-bar img {
     height: 50px;
     max-width: 100%;
+  }
+  .sponsor-item {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+  .sponsor-name {
+    display: block;
+    text-align: left;
   }
 }
 
@@ -258,11 +280,13 @@ redirect_from:
 <!-- Sponsors -->
 <div class="sponsor-bar">
   <span class="sponsor-label">Supported by</span>
-  <a href="https://www.nsf.gov" target="_blank">
+  <a href="https://www.nsf.gov" target="_blank" class="sponsor-item">
     <img src="/files/NSF_Official_logo_High_Res_1200ppi.png" alt="NSF" style="width:60px;">
+    <span class="sponsor-name">National Science Foundation</span>
   </a>
-  <a href="https://engineering.wayne.edu/computer-science" target="_blank">
+  <a href="https://engineering.wayne.edu/computer-science" target="_blank" class="sponsor-item">
     <img src="/files/computer_science_anderson_horz_561.jpg" alt="WSU CS">
+    <span class="sponsor-name">Wayne State University CS</span>
   </a>
 </div>
 
