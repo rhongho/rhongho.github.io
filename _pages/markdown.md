@@ -39,10 +39,14 @@ redirect_from:
   border: none;
 }
 .vision-box .vision-subtitle {
-  font-size: 0.85em;
-  color: #a8ddd6;
-  font-weight: 500;
-  letter-spacing: 0.02em;
+  display: inline-block;
+  font-size: 0.75em;
+  color: #093f39;
+  background: rgba(255,255,255,0.88);
+  border-radius: 3px;
+  padding: 2px 10px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
   margin-bottom: 18px;
 }
 .vision-box p {
