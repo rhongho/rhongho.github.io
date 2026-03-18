@@ -237,7 +237,7 @@ redirect_from:
     text-align: left;
   }
   .sponsor-item:last-child {
-    padding-left: 8px;
+    padding-left: 8.5px;
   }
 }
 
