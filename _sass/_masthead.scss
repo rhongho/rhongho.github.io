@@ -54,5 +54,10 @@
   &--lg {
     padding-right: 3em;
     font-weight: 700;
+    display: none;
+
+    @include breakpoint($medium) {
+      display: table-cell;
+    }
   }
 }
