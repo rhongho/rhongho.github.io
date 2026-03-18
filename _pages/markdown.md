@@ -209,11 +209,11 @@ redirect_from:
 }
 .sponsor-name {
   display: none;
-  font-size: 0.72em;
-  color: #555;
-  font-weight: 600;
-  line-height: 1.3;
-  max-width: 120px;
+  font-size: 0.88em;
+  color: #111;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
 }
 @media (max-width: 599px) {
   .sponsor-bar {
@@ -286,7 +286,6 @@ redirect_from:
   </a>
   <a href="https://engineering.wayne.edu/computer-science" target="_blank" class="sponsor-item">
     <img src="/files/computer_science_anderson_horz_561.jpg" alt="WSU CS">
-    <span class="sponsor-name">Wayne State University CS</span>
   </a>
 </div>
 
