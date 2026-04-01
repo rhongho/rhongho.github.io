@@ -275,6 +275,11 @@ redirect_from:
 <ul class="news-feed">
 
   <li class="news-item">
+    <span class="news-date">Apr 2026</span>
+    <span class="news-text">Invited to serve on the TPC of <span class="news-venue">IEEE INFOCOM 2027</span>.</span>
+  </li>
+
+  <li class="news-item">
     <span class="news-date">Mar 2026</span>
     <span class="news-text">Mehdi will join <strong><span style="color:#4285F4">G</span><span style="color:#EA4335">o</span><span style="color:#FBBC05">o</span><span style="color:#4285F4">g</span><span style="color:#34A853">l</span><span style="color:#EA4335">e</span></strong> for a summer internship!</span>
   </li>
