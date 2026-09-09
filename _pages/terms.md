@@ -66,6 +66,14 @@ author_profile: true
 <div class="svc-section-title">Conference Organization / Technical Committee</div>
 <ul class="svc-list">
   <li class="svc-item">
+    <span class="svc-year">2027</span>
+    <span class="svc-role">TPC Member - <span class="svc-venue">USENIX Security 2027</span></span>
+  </li>
+  <li class="svc-item">
+    <span class="svc-year">2027</span>
+    <span class="svc-role">TPC Member - <span class="svc-venue">IEEE INFOCOM 2027</span></span>
+  </li>
+  <li class="svc-item">
     <span class="svc-year">2025</span>
     <span class="svc-role">Technical Program Chair - <span class="svc-venue">IEEE DSC 2025</span></span>
   </li>
