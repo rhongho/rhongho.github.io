@@ -12,10 +12,13 @@ source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
 
 gem "rexml", "~> 3.3", ">= 3.3.2"
-gem "nokogiri", "~> 1.18", ">= 1.18.3"
+gem "nokogiri", ">= 1.19.4"
 gem "uri", "~> 0.13", ">= 0.13.2"
 gem "activesupport", "~> 7.2", ">= 7.2.3.1"
-gem "faraday", "~> 2.14", ">= 2.14.1"
+gem "faraday", "~> 2.14", ">= 2.14.3"
+gem "concurrent-ruby", ">= 1.3.7"
+gem "json", ">= 2.19.9"
+gem "addressable", ">= 2.9.0"
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
