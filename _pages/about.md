@@ -275,6 +275,11 @@ redirect_from:
 <ul class="news-feed">
 
   <li class="news-item">
+    <span class="news-date">Jun 2026</span>
+    <span class="news-text">Invited to serve on the TPC of <span class="news-venue">USENIX Security 2027</span>.</span>
+  </li>
+
+  <li class="news-item">
     <span class="news-date">Apr 2026</span>
     <span class="news-text"><span class="news-badge award">Award</span> Received <strong>NSF CAREER Award</strong>. <a href="https://www.nsf.gov/awardsearch/show-award?AWD_ID=2542128" target="_blank">[link]</a></span>
   </li>
